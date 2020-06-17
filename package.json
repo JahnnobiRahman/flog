@@ -1,0 +1,29 @@
+{
+  "name": "flog",
+  "version": "1.0.0",
+  "description": "landing page for flog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass":"node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JahnnobiRahman/flog.git"
+  },
+  "keywords": [
+    "CSS",
+    "SASS",
+    "NPM",
+    "NODE-SASS"
+  ],
+  "author": "jahnnobi rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JahnnobiRahman/flog/issues"
+  },
+  "homepage": "https://github.com/JahnnobiRahman/flog#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
