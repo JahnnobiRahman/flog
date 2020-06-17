@@ -1,0 +1,1878 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/home/jahnnobi/.nvm/versions/node/v12.18.0/bin/node',
+1 verbose cli   '/home/jahnnobi/.nvm/versions/node/v12.18.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node-sass@4.5.3'
+1 verbose cli ]
+2 info using npm@3.10.10
+3 info using node@v12.18.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData node-sass@4.5.3
+8 silly fetchNamedPackageData node-sass
+9 silly mapToRegistry name node-sass
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://registry.npm.taobao.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'node-sass',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'node-sass',
+12 silly mapToRegistry   name: 'node-sass',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag'
+12 silly mapToRegistry }
+13 silly mapToRegistry uri http://registry.npm.taobao.org/node-sass
+14 verbose request uri http://registry.npm.taobao.org/node-sass
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 4:39:04 AM
+17 verbose request id 9b1929b75cfd34e4
+18 verbose etag W/"5e1a492154ce69c6898c08fc9dcc00e7"
+19 http request GET http://registry.npm.taobao.org/node-sass
+20 info retry will retry, error on last attempt: Error: unexpected end of file
+21 info attempt registry request try #2 at 4:39:16 AM
+22 verbose etag W/"5e1a492154ce69c6898c08fc9dcc00e7"
+23 http request GET http://registry.npm.taobao.org/node-sass
+24 info retry will retry, error on last attempt: Error: unexpected end of file
+25 info attempt registry request try #3 at 4:40:16 AM
+26 verbose etag W/"5e1a492154ce69c6898c08fc9dcc00e7"
+27 http request GET http://registry.npm.taobao.org/node-sass
+28 silly get cb [ 304, undefined ]
+29 verbose etag http://registry.npm.taobao.org/node-sass from cache
+30 verbose get saving node-sass to /home/jahnnobi/.npm/registry.npm.taobao.org/node-sass/.cache.json
+31 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+32 silly install normalizeTree
+33 silly loadCurrentTree Finishing
+34 silly loadIdealTree Starting
+35 silly install loadIdealTree
+36 silly cloneCurrentTree Starting
+37 silly install cloneCurrentTreeToIdealTree
+38 silly cloneCurrentTree Finishing
+39 silly loadShrinkwrap Starting
+40 silly install loadShrinkwrap
+41 silly loadShrinkwrap Finishing
+42 silly loadAllDepsIntoIdealTree Starting
+43 silly install loadAllDepsIntoIdealTree
+44 silly resolveWithNewModule node-sass@4.5.3 checking installable status
+45 silly cache add args [ 'node-sass@4.5.3', null ]
+46 verbose cache add spec node-sass@4.5.3
+47 silly cache add parsed spec Result {
+47 silly cache add   raw: 'node-sass@4.5.3',
+47 silly cache add   scope: null,
+47 silly cache add   escapedName: 'node-sass',
+47 silly cache add   name: 'node-sass',
+47 silly cache add   rawSpec: '4.5.3',
+47 silly cache add   spec: '4.5.3',
+47 silly cache add   type: 'version'
+47 silly cache add }
+48 silly addNamed node-sass@4.5.3
+49 verbose addNamed "4.5.3" is a plain semver version for node-sass
+50 silly mapToRegistry name node-sass
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry http://registry.npm.taobao.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'node-sass',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'node-sass',
+53 silly mapToRegistry   name: 'node-sass',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag'
+53 silly mapToRegistry }
+54 silly mapToRegistry uri http://registry.npm.taobao.org/node-sass
+55 verbose addNameVersion registry:http://registry.npm.taobao.org/node-sass not in flight; fetching
+56 verbose get http://registry.npm.taobao.org/node-sass not expired, no request
+57 silly mapToRegistry name node-sass
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry http://registry.npm.taobao.org/
+60 silly mapToRegistry data Result {
+60 silly mapToRegistry   raw: 'node-sass',
+60 silly mapToRegistry   scope: null,
+60 silly mapToRegistry   escapedName: 'node-sass',
+60 silly mapToRegistry   name: 'node-sass',
+60 silly mapToRegistry   rawSpec: '',
+60 silly mapToRegistry   spec: 'latest',
+60 silly mapToRegistry   type: 'tag'
+60 silly mapToRegistry }
+61 silly mapToRegistry uri http://registry.npm.taobao.org/node-sass
+62 verbose addRemoteTarball http://registry.npm.taobao.org/node-sass/download/node-sass-4.5.3.tgz not in flight; adding
+63 verbose addRemoteTarball [
+63 verbose addRemoteTarball   'http://registry.npm.taobao.org/node-sass/download/node-sass-4.5.3.tgz',
+63 verbose addRemoteTarball   'd09c9d1179641239d1b97ffc6231fdcec53e1568'
+63 verbose addRemoteTarball ]
+64 info retry fetch attempt 1 at 4:40:16 AM
+65 info attempt registry request try #1 at 4:40:16 AM
+66 http fetch GET http://registry.npm.taobao.org/node-sass/download/node-sass-4.5.3.tgz
+67 http fetch 200 http://registry.npm.taobao.org/node-sass/download/node-sass-4.5.3.tgz
+68 silly fetchAndShaCheck shasum d09c9d1179641239d1b97ffc6231fdcec53e1568
+69 verbose addTmpTarball /tmp/npm-5536-c2b96d77/registry.npm.taobao.org/node-sass/download/node-sass-4.5.3.tgz not in flight; adding
+70 verbose addTmpTarball already have metadata; skipping unpack for node-sass@4.5.3
+71 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+72 silly cache afterAdd node-sass@4.5.3
+73 verbose afterAdd /home/jahnnobi/.npm/node-sass/4.5.3/package/package.json not in flight; writing
+74 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+75 verbose afterAdd /home/jahnnobi/.npm/node-sass/4.5.3/package/package.json written
+76 silly fetchNamedPackageData lodash.assign
+77 silly mapToRegistry name lodash.assign
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry http://registry.npm.taobao.org/
+80 silly mapToRegistry data Result {
+80 silly mapToRegistry   raw: 'lodash.assign',
+80 silly mapToRegistry   scope: null,
+80 silly mapToRegistry   escapedName: 'lodash.assign',
+80 silly mapToRegistry   name: 'lodash.assign',
+80 silly mapToRegistry   rawSpec: '',
+80 silly mapToRegistry   spec: 'latest',
+80 silly mapToRegistry   type: 'tag'
+80 silly mapToRegistry }
+81 silly mapToRegistry uri http://registry.npm.taobao.org/lodash.assign
+82 silly fetchNamedPackageData lodash.clonedeep
+83 silly mapToRegistry name lodash.clonedeep
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry http://registry.npm.taobao.org/
+86 silly mapToRegistry data Result {
+86 silly mapToRegistry   raw: 'lodash.clonedeep',
+86 silly mapToRegistry   scope: null,
+86 silly mapToRegistry   escapedName: 'lodash.clonedeep',
+86 silly mapToRegistry   name: 'lodash.clonedeep',
+86 silly mapToRegistry   rawSpec: '',
+86 silly mapToRegistry   spec: 'latest',
+86 silly mapToRegistry   type: 'tag'
+86 silly mapToRegistry }
+87 silly mapToRegistry uri http://registry.npm.taobao.org/lodash.clonedeep
+88 silly fetchNamedPackageData lodash.mergewith
+89 silly mapToRegistry name lodash.mergewith
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry http://registry.npm.taobao.org/
+92 silly mapToRegistry data Result {
+92 silly mapToRegistry   raw: 'lodash.mergewith',
+92 silly mapToRegistry   scope: null,
+92 silly mapToRegistry   escapedName: 'lodash.mergewith',
+92 silly mapToRegistry   name: 'lodash.mergewith',
+92 silly mapToRegistry   rawSpec: '',
+92 silly mapToRegistry   spec: 'latest',
+92 silly mapToRegistry   type: 'tag'
+92 silly mapToRegistry }
+93 silly mapToRegistry uri http://registry.npm.taobao.org/lodash.mergewith
+94 silly fetchNamedPackageData mkdirp
+95 silly mapToRegistry name mkdirp
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry http://registry.npm.taobao.org/
+98 silly mapToRegistry data Result {
+98 silly mapToRegistry   raw: 'mkdirp',
+98 silly mapToRegistry   scope: null,
+98 silly mapToRegistry   escapedName: 'mkdirp',
+98 silly mapToRegistry   name: 'mkdirp',
+98 silly mapToRegistry   rawSpec: '',
+98 silly mapToRegistry   spec: 'latest',
+98 silly mapToRegistry   type: 'tag'
+98 silly mapToRegistry }
+99 silly mapToRegistry uri http://registry.npm.taobao.org/mkdirp
+100 silly fetchNamedPackageData node-gyp
+101 silly mapToRegistry name node-gyp
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry http://registry.npm.taobao.org/
+104 silly mapToRegistry data Result {
+104 silly mapToRegistry   raw: 'node-gyp',
+104 silly mapToRegistry   scope: null,
+104 silly mapToRegistry   escapedName: 'node-gyp',
+104 silly mapToRegistry   name: 'node-gyp',
+104 silly mapToRegistry   rawSpec: '',
+104 silly mapToRegistry   spec: 'latest',
+104 silly mapToRegistry   type: 'tag'
+104 silly mapToRegistry }
+105 silly mapToRegistry uri http://registry.npm.taobao.org/node-gyp
+106 verbose request uri http://registry.npm.taobao.org/lodash.assign
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 4:40:20 AM
+109 http request GET http://registry.npm.taobao.org/lodash.assign
+110 verbose request uri http://registry.npm.taobao.org/lodash.clonedeep
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 4:40:20 AM
+113 http request GET http://registry.npm.taobao.org/lodash.clonedeep
+114 verbose request uri http://registry.npm.taobao.org/lodash.mergewith
+115 verbose request no auth needed
+116 info attempt registry request try #1 at 4:40:20 AM
+117 http request GET http://registry.npm.taobao.org/lodash.mergewith
+118 verbose request uri http://registry.npm.taobao.org/mkdirp
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 4:40:20 AM
+121 verbose etag W/"8375d42ab507bdcee9179fdd046463fe"
+122 http request GET http://registry.npm.taobao.org/mkdirp
+123 verbose request uri http://registry.npm.taobao.org/node-gyp
+124 verbose request no auth needed
+125 info attempt registry request try #1 at 4:40:20 AM
+126 verbose etag W/"7ba9916ba23e3fb7f1cb5cc493e43314"
+127 http request GET http://registry.npm.taobao.org/node-gyp
+128 http 200 http://registry.npm.taobao.org/lodash.assign
+129 verbose headers {
+129 verbose headers   server: 'Tengine',
+129 verbose headers   'content-type': 'application/json; charset=utf-8',
+129 verbose headers   'content-length': '4483',
+129 verbose headers   connection: 'keep-alive',
+129 verbose headers   date: 'Tue, 16 Jun 2020 22:40:21 GMT',
+129 verbose headers   'x-current-requests': '1',
+129 verbose headers   vary: 'accept, accept-encoding',
+129 verbose headers   etag: 'W/"89cc0c863245877bf7b354bbae318e00"',
+129 verbose headers   'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+129 verbose headers   'x-readtime': '13',
+129 verbose headers   via: 'th9.l1, cache1.th9, l2sg52.l2, cache34.l2sg52, izbp17djxs02ot6ppjbt2jz, cache34.l2sg52[851,200-0,H], cache15.l2sg52[852,0], cache1.th9[957,200-0,M], cache9.th9[958,0]',
+129 verbose headers   'content-encoding': 'gzip',
+129 verbose headers   'ali-swift-global-savetime': '1587980602',
+129 verbose headers   age: '0',
+129 verbose headers   'x-cache': 'MISS TCP_MISS dirn:13:756067588',
+129 verbose headers   'x-swift-savetime': 'Tue, 16 Jun 2020 22:40:21 GMT',
+129 verbose headers   'x-swift-cachetime': '120',
+129 verbose headers   'timing-allow-origin': '*',
+129 verbose headers   eagleid: 'a3b5109d15923472201811992e'
+129 verbose headers }
+130 silly get cb [
+130 silly get   200,
+130 silly get   {
+130 silly get     server: 'Tengine',
+130 silly get     'content-type': 'application/json; charset=utf-8',
+130 silly get     'content-length': '4483',
+130 silly get     connection: 'keep-alive',
+130 silly get     date: 'Tue, 16 Jun 2020 22:40:21 GMT',
+130 silly get     'x-current-requests': '1',
+130 silly get     vary: 'accept, accept-encoding',
+130 silly get     etag: 'W/"89cc0c863245877bf7b354bbae318e00"',
+130 silly get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+130 silly get     'x-readtime': '13',
+130 silly get     via: 'th9.l1, cache1.th9, l2sg52.l2, cache34.l2sg52, izbp17djxs02ot6ppjbt2jz, cache34.l2sg52[851,200-0,H], cache15.l2sg52[852,0], cache1.th9[957,200-0,M], cache9.th9[958,0]',
+130 silly get     'content-encoding': 'gzip',
+130 silly get     'ali-swift-global-savetime': '1587980602',
+130 silly get     age: '0',
+130 silly get     'x-cache': 'MISS TCP_MISS dirn:13:756067588',
+130 silly get     'x-swift-savetime': 'Tue, 16 Jun 2020 22:40:21 GMT',
+130 silly get     'x-swift-cachetime': '120',
+130 silly get     'timing-allow-origin': '*',
+130 silly get     eagleid: 'a3b5109d15923472201811992e'
+130 silly get   }
+130 silly get ]
+131 verbose get saving lodash.assign to /home/jahnnobi/.npm/registry.npm.taobao.org/lodash.assign/.cache.json
+132 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+133 silly resolveWithNewModule lodash.assign@4.2.0 checking installable status
+134 silly cache add args [ 'lodash.assign@^4.2.0', null ]
+135 verbose cache add spec lodash.assign@^4.2.0
+136 silly cache add parsed spec Result {
+136 silly cache add   raw: 'lodash.assign@^4.2.0',
+136 silly cache add   scope: null,
+136 silly cache add   escapedName: 'lodash.assign',
+136 silly cache add   name: 'lodash.assign',
+136 silly cache add   rawSpec: '^4.2.0',
+136 silly cache add   spec: '>=4.2.0 <5.0.0',
+136 silly cache add   type: 'range'
+136 silly cache add }
+137 silly addNamed lodash.assign@>=4.2.0 <5.0.0
+138 verbose addNamed ">=4.2.0 <5.0.0" is a valid semver range for lodash.assign
+139 silly addNameRange { name: 'lodash.assign', range: '>=4.2.0 <5.0.0', hasData: false }
+140 silly mapToRegistry name lodash.assign
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry http://registry.npm.taobao.org/
+143 silly mapToRegistry data Result {
+143 silly mapToRegistry   raw: 'lodash.assign',
+143 silly mapToRegistry   scope: null,
+143 silly mapToRegistry   escapedName: 'lodash.assign',
+143 silly mapToRegistry   name: 'lodash.assign',
+143 silly mapToRegistry   rawSpec: '',
+143 silly mapToRegistry   spec: 'latest',
+143 silly mapToRegistry   type: 'tag'
+143 silly mapToRegistry }
+144 silly mapToRegistry uri http://registry.npm.taobao.org/lodash.assign
+145 verbose addNameRange registry:http://registry.npm.taobao.org/lodash.assign not in flight; fetching
+146 verbose get http://registry.npm.taobao.org/lodash.assign not expired, no request
+147 silly addNameRange number 2 { name: 'lodash.assign', range: '>=4.2.0 <5.0.0', hasData: true }
+148 silly addNameRange versions [
+148 silly addNameRange   'lodash.assign',
+148 silly addNameRange   [
+148 silly addNameRange     '4.2.0', '4.1.0', '4.0.9',
+148 silly addNameRange     '4.0.8', '4.0.7', '4.0.6',
+148 silly addNameRange     '4.0.5', '4.0.4', '4.0.3',
+148 silly addNameRange     '4.0.2', '4.0.1', '4.0.0',
+148 silly addNameRange     '3.2.0', '3.1.0', '3.0.0',
+148 silly addNameRange     '2.4.1', '2.4.0', '2.3.0',
+148 silly addNameRange     '2.2.1', '2.2.0', '2.1.0',
+148 silly addNameRange     '2.0.0'
+148 silly addNameRange   ]
+148 silly addNameRange ]
+149 silly addNamed lodash.assign@4.2.0
+150 verbose addNamed "4.2.0" is a plain semver version for lodash.assign
+151 silly mapToRegistry name lodash.assign
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry http://registry.npm.taobao.org/
+154 silly mapToRegistry data Result {
+154 silly mapToRegistry   raw: 'lodash.assign',
+154 silly mapToRegistry   scope: null,
+154 silly mapToRegistry   escapedName: 'lodash.assign',
+154 silly mapToRegistry   name: 'lodash.assign',
+154 silly mapToRegistry   rawSpec: '',
+154 silly mapToRegistry   spec: 'latest',
+154 silly mapToRegistry   type: 'tag'
+154 silly mapToRegistry }
+155 silly mapToRegistry uri http://registry.npm.taobao.org/lodash.assign
+156 verbose addRemoteTarball http://registry.npm.taobao.org/lodash.assign/download/lodash.assign-4.2.0.tgz not in flight; adding
+157 verbose addRemoteTarball [
+157 verbose addRemoteTarball   'http://registry.npm.taobao.org/lodash.assign/download/lodash.assign-4.2.0.tgz',
+157 verbose addRemoteTarball   '0d99f3ccd7a6d261d19bdaeb9245005d285808e7'
+157 verbose addRemoteTarball ]
+158 info retry fetch attempt 1 at 4:40:21 AM
+159 info attempt registry request try #1 at 4:40:21 AM
+160 http fetch GET http://registry.npm.taobao.org/lodash.assign/download/lodash.assign-4.2.0.tgz
+161 info retry will retry, error on last attempt: Error: unexpected end of file
+162 http 200 http://registry.npm.taobao.org/lodash.mergewith
+163 verbose headers {
+163 verbose headers   server: 'Tengine',
+163 verbose headers   'content-type': 'application/json; charset=utf-8',
+163 verbose headers   'content-length': '4107',
+163 verbose headers   connection: 'keep-alive',
+163 verbose headers   date: 'Tue, 16 Jun 2020 22:40:21 GMT',
+163 verbose headers   'x-current-requests': '1',
+163 verbose headers   vary: 'accept, accept-encoding',
+163 verbose headers   etag: 'W/"3fef426a5ff122978163fd66e3cc754f"',
+163 verbose headers   'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+163 verbose headers   'x-readtime': '11',
+163 verbose headers   via: 'th9.l1, cache11.th9, l2sg52.l2, cache21.l2sg52, izbp17djxs02ot6ppjbt2jz, cache21.l2sg52[791,200-0,M], cache33.l2sg52[792,0], cache11.th9[899,200-0,M], cache9.th9[900,0]',
+163 verbose headers   'content-encoding': 'gzip',
+163 verbose headers   'ali-swift-global-savetime': '1592347221',
+163 verbose headers   'x-cache': 'MISS TCP_MISS dirn:12:333297107',
+163 verbose headers   'x-swift-savetime': 'Tue, 16 Jun 2020 22:40:21 GMT',
+163 verbose headers   'x-swift-cachetime': '120',
+163 verbose headers   'timing-allow-origin': '*',
+163 verbose headers   eagleid: 'a3b5109d15923472209682387e'
+163 verbose headers }
+164 silly get cb [
+164 silly get   200,
+164 silly get   {
+164 silly get     server: 'Tengine',
+164 silly get     'content-type': 'application/json; charset=utf-8',
+164 silly get     'content-length': '4107',
+164 silly get     connection: 'keep-alive',
+164 silly get     date: 'Tue, 16 Jun 2020 22:40:21 GMT',
+164 silly get     'x-current-requests': '1',
+164 silly get     vary: 'accept, accept-encoding',
+164 silly get     etag: 'W/"3fef426a5ff122978163fd66e3cc754f"',
+164 silly get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+164 silly get     'x-readtime': '11',
+164 silly get     via: 'th9.l1, cache11.th9, l2sg52.l2, cache21.l2sg52, izbp17djxs02ot6ppjbt2jz, cache21.l2sg52[791,200-0,M], cache33.l2sg52[792,0], cache11.th9[899,200-0,M], cache9.th9[900,0]',
+164 silly get     'content-encoding': 'gzip',
+164 silly get     'ali-swift-global-savetime': '1592347221',
+164 silly get     'x-cache': 'MISS TCP_MISS dirn:12:333297107',
+164 silly get     'x-swift-savetime': 'Tue, 16 Jun 2020 22:40:21 GMT',
+164 silly get     'x-swift-cachetime': '120',
+164 silly get     'timing-allow-origin': '*',
+164 silly get     eagleid: 'a3b5109d15923472209682387e'
+164 silly get   }
+164 silly get ]
+165 verbose get saving lodash.mergewith to /home/jahnnobi/.npm/registry.npm.taobao.org/lodash.mergewith/.cache.json
+166 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+167 http 200 http://registry.npm.taobao.org/lodash.clonedeep
+168 verbose headers {
+168 verbose headers   server: 'Tengine',
+168 verbose headers   'content-type': 'application/json; charset=utf-8',
+168 verbose headers   'content-length': '4727',
+168 verbose headers   connection: 'keep-alive',
+168 verbose headers   date: 'Tue, 16 Jun 2020 22:40:21 GMT',
+168 verbose headers   'x-current-requests': '1',
+168 verbose headers   vary: 'accept, accept-encoding',
+168 verbose headers   etag: 'W/"94f508320e0143ecc9f27bb68853e106"',
+168 verbose headers   'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+168 verbose headers   'x-readtime': '13',
+168 verbose headers   via: 'th9.l1, cache7.th9, l2sg52.l2, cache2.l2sg52, izbp11dsagbzylz6yon5vvz, cache2.l2sg52[788,200-0,H], cache33.l2sg52[789,0], cache7.th9[894,200-0,M], cache7.th9[896,0]',
+168 verbose headers   'content-encoding': 'gzip',
+168 verbose headers   'ali-swift-global-savetime': '1588061670',
+168 verbose headers   age: '0',
+168 verbose headers   'x-cache': 'MISS TCP_MISS dirn:13:853357132',
+168 verbose headers   'x-swift-savetime': 'Tue, 16 Jun 2020 22:40:21 GMT',
+168 verbose headers   'x-swift-cachetime': '120',
+168 verbose headers   'timing-allow-origin': '*',
+168 verbose headers   eagleid: 'a3b5109b15923472209745994e'
+168 verbose headers }
+169 silly get cb [
+169 silly get   200,
+169 silly get   {
+169 silly get     server: 'Tengine',
+169 silly get     'content-type': 'application/json; charset=utf-8',
+169 silly get     'content-length': '4727',
+169 silly get     connection: 'keep-alive',
+169 silly get     date: 'Tue, 16 Jun 2020 22:40:21 GMT',
+169 silly get     'x-current-requests': '1',
+169 silly get     vary: 'accept, accept-encoding',
+169 silly get     etag: 'W/"94f508320e0143ecc9f27bb68853e106"',
+169 silly get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+169 silly get     'x-readtime': '13',
+169 silly get     via: 'th9.l1, cache7.th9, l2sg52.l2, cache2.l2sg52, izbp11dsagbzylz6yon5vvz, cache2.l2sg52[788,200-0,H], cache33.l2sg52[789,0], cache7.th9[894,200-0,M], cache7.th9[896,0]',
+169 silly get     'content-encoding': 'gzip',
+169 silly get     'ali-swift-global-savetime': '1588061670',
+169 silly get     age: '0',
+169 silly get     'x-cache': 'MISS TCP_MISS dirn:13:853357132',
+169 silly get     'x-swift-savetime': 'Tue, 16 Jun 2020 22:40:21 GMT',
+169 silly get     'x-swift-cachetime': '120',
+169 silly get     'timing-allow-origin': '*',
+169 silly get     eagleid: 'a3b5109b15923472209745994e'
+169 silly get   }
+169 silly get ]
+170 verbose get saving lodash.clonedeep to /home/jahnnobi/.npm/registry.npm.taobao.org/lodash.clonedeep/.cache.json
+171 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+172 silly resolveWithNewModule lodash.mergewith@4.6.2 checking installable status
+173 silly cache add args [ 'lodash.mergewith@^4.6.0', null ]
+174 verbose cache add spec lodash.mergewith@^4.6.0
+175 silly cache add parsed spec Result {
+175 silly cache add   raw: 'lodash.mergewith@^4.6.0',
+175 silly cache add   scope: null,
+175 silly cache add   escapedName: 'lodash.mergewith',
+175 silly cache add   name: 'lodash.mergewith',
+175 silly cache add   rawSpec: '^4.6.0',
+175 silly cache add   spec: '>=4.6.0 <5.0.0',
+175 silly cache add   type: 'range'
+175 silly cache add }
+176 silly addNamed lodash.mergewith@>=4.6.0 <5.0.0
+177 verbose addNamed ">=4.6.0 <5.0.0" is a valid semver range for lodash.mergewith
+178 silly addNameRange { name: 'lodash.mergewith', range: '>=4.6.0 <5.0.0', hasData: false }
+179 silly mapToRegistry name lodash.mergewith
+180 silly mapToRegistry using default registry
+181 silly mapToRegistry registry http://registry.npm.taobao.org/
+182 silly mapToRegistry data Result {
+182 silly mapToRegistry   raw: 'lodash.mergewith',
+182 silly mapToRegistry   scope: null,
+182 silly mapToRegistry   escapedName: 'lodash.mergewith',
+182 silly mapToRegistry   name: 'lodash.mergewith',
+182 silly mapToRegistry   rawSpec: '',
+182 silly mapToRegistry   spec: 'latest',
+182 silly mapToRegistry   type: 'tag'
+182 silly mapToRegistry }
+183 silly mapToRegistry uri http://registry.npm.taobao.org/lodash.mergewith
+184 verbose addNameRange registry:http://registry.npm.taobao.org/lodash.mergewith not in flight; fetching
+185 silly resolveWithNewModule lodash.clonedeep@4.5.0 checking installable status
+186 silly cache add args [ 'lodash.clonedeep@^4.3.2', null ]
+187 verbose cache add spec lodash.clonedeep@^4.3.2
+188 silly cache add parsed spec Result {
+188 silly cache add   raw: 'lodash.clonedeep@^4.3.2',
+188 silly cache add   scope: null,
+188 silly cache add   escapedName: 'lodash.clonedeep',
+188 silly cache add   name: 'lodash.clonedeep',
+188 silly cache add   rawSpec: '^4.3.2',
+188 silly cache add   spec: '>=4.3.2 <5.0.0',
+188 silly cache add   type: 'range'
+188 silly cache add }
+189 silly addNamed lodash.clonedeep@>=4.3.2 <5.0.0
+190 verbose addNamed ">=4.3.2 <5.0.0" is a valid semver range for lodash.clonedeep
+191 silly addNameRange { name: 'lodash.clonedeep', range: '>=4.3.2 <5.0.0', hasData: false }
+192 silly mapToRegistry name lodash.clonedeep
+193 silly mapToRegistry using default registry
+194 silly mapToRegistry registry http://registry.npm.taobao.org/
+195 silly mapToRegistry data Result {
+195 silly mapToRegistry   raw: 'lodash.clonedeep',
+195 silly mapToRegistry   scope: null,
+195 silly mapToRegistry   escapedName: 'lodash.clonedeep',
+195 silly mapToRegistry   name: 'lodash.clonedeep',
+195 silly mapToRegistry   rawSpec: '',
+195 silly mapToRegistry   spec: 'latest',
+195 silly mapToRegistry   type: 'tag'
+195 silly mapToRegistry }
+196 silly mapToRegistry uri http://registry.npm.taobao.org/lodash.clonedeep
+197 verbose addNameRange registry:http://registry.npm.taobao.org/lodash.clonedeep not in flight; fetching
+198 verbose get http://registry.npm.taobao.org/lodash.mergewith not expired, no request
+199 silly addNameRange number 2 { name: 'lodash.mergewith', range: '>=4.6.0 <5.0.0', hasData: true }
+200 silly addNameRange versions [
+200 silly addNameRange   'lodash.mergewith',
+200 silly addNameRange   [
+200 silly addNameRange     '4.6.2', '4.6.1', '4.6.0',
+200 silly addNameRange     '4.5.1', '4.5.0', '4.4.0',
+200 silly addNameRange     '4.3.5', '4.3.4', '4.3.3',
+200 silly addNameRange     '4.3.2', '4.3.1', '4.3.0',
+200 silly addNameRange     '4.2.0', '4.1.1', '4.1.0',
+200 silly addNameRange     '4.0.4', '4.0.3', '4.0.2',
+200 silly addNameRange     '4.0.1', '4.0.0'
+200 silly addNameRange   ]
+200 silly addNameRange ]
+201 silly addNamed lodash.mergewith@4.6.2
+202 verbose addNamed "4.6.2" is a plain semver version for lodash.mergewith
+203 verbose get http://registry.npm.taobao.org/lodash.clonedeep not expired, no request
+204 silly addNameRange number 2 { name: 'lodash.clonedeep', range: '>=4.3.2 <5.0.0', hasData: true }
+205 silly addNameRange versions [
+205 silly addNameRange   'lodash.clonedeep',
+205 silly addNameRange   [
+205 silly addNameRange     '4.5.0', '4.4.1', '4.4.0',
+205 silly addNameRange     '4.3.2', '4.3.1', '4.3.0',
+205 silly addNameRange     '4.2.0', '4.1.1', '4.1.0',
+205 silly addNameRange     '4.0.4', '4.0.3', '4.0.2',
+205 silly addNameRange     '4.0.1', '4.0.0', '3.0.2',
+205 silly addNameRange     '3.0.1', '3.0.0', '2.4.1',
+205 silly addNameRange     '2.4.0', '2.3.0', '2.2.1',
+205 silly addNameRange     '2.2.0', '2.1.0', '2.0.0'
+205 silly addNameRange   ]
+205 silly addNameRange ]
+206 silly addNamed lodash.clonedeep@4.5.0
+207 verbose addNamed "4.5.0" is a plain semver version for lodash.clonedeep
+208 silly mapToRegistry name lodash.mergewith
+209 silly mapToRegistry using default registry
+210 silly mapToRegistry registry http://registry.npm.taobao.org/
+211 silly mapToRegistry data Result {
+211 silly mapToRegistry   raw: 'lodash.mergewith',
+211 silly mapToRegistry   scope: null,
+211 silly mapToRegistry   escapedName: 'lodash.mergewith',
+211 silly mapToRegistry   name: 'lodash.mergewith',
+211 silly mapToRegistry   rawSpec: '',
+211 silly mapToRegistry   spec: 'latest',
+211 silly mapToRegistry   type: 'tag'
+211 silly mapToRegistry }
+212 silly mapToRegistry uri http://registry.npm.taobao.org/lodash.mergewith
+213 verbose addRemoteTarball http://registry.npm.taobao.org/lodash.mergewith/download/lodash.mergewith-4.6.2.tgz not in flight; adding
+214 verbose addRemoteTarball [
+214 verbose addRemoteTarball   'http://registry.npm.taobao.org/lodash.mergewith/download/lodash.mergewith-4.6.2.tgz',
+214 verbose addRemoteTarball   '617121f89ac55f59047c7aec1ccd6654c6590f55'
+214 verbose addRemoteTarball ]
+215 silly mapToRegistry name lodash.clonedeep
+216 silly mapToRegistry using default registry
+217 silly mapToRegistry registry http://registry.npm.taobao.org/
+218 silly mapToRegistry data Result {
+218 silly mapToRegistry   raw: 'lodash.clonedeep',
+218 silly mapToRegistry   scope: null,
+218 silly mapToRegistry   escapedName: 'lodash.clonedeep',
+218 silly mapToRegistry   name: 'lodash.clonedeep',
+218 silly mapToRegistry   rawSpec: '',
+218 silly mapToRegistry   spec: 'latest',
+218 silly mapToRegistry   type: 'tag'
+218 silly mapToRegistry }
+219 silly mapToRegistry uri http://registry.npm.taobao.org/lodash.clonedeep
+220 verbose addRemoteTarball http://registry.npm.taobao.org/lodash.clonedeep/download/lodash.clonedeep-4.5.0.tgz not in flight; adding
+221 verbose addRemoteTarball [
+221 verbose addRemoteTarball   'http://registry.npm.taobao.org/lodash.clonedeep/download/lodash.clonedeep-4.5.0.tgz',
+221 verbose addRemoteTarball   'e23f3f9c4f8fbdde872529c1071857a086e5ccef'
+221 verbose addRemoteTarball ]
+222 info retry fetch attempt 1 at 4:40:22 AM
+223 info attempt registry request try #1 at 4:40:22 AM
+224 http fetch GET http://registry.npm.taobao.org/lodash.mergewith/download/lodash.mergewith-4.6.2.tgz
+225 info retry fetch attempt 1 at 4:40:22 AM
+226 info attempt registry request try #1 at 4:40:22 AM
+227 http fetch GET http://registry.npm.taobao.org/lodash.clonedeep/download/lodash.clonedeep-4.5.0.tgz
+228 info retry will retry, error on last attempt: Error: unexpected end of file
+229 http fetch 200 http://registry.npm.taobao.org/lodash.assign/download/lodash.assign-4.2.0.tgz
+230 silly fetchAndShaCheck shasum 0d99f3ccd7a6d261d19bdaeb9245005d285808e7
+231 verbose addTmpTarball /tmp/npm-5536-c2b96d77/registry.npm.taobao.org/lodash.assign/download/lodash.assign-4.2.0.tgz not in flight; adding
+232 verbose addTmpTarball already have metadata; skipping unpack for lodash.assign@4.2.0
+233 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+234 silly cache afterAdd lodash.assign@4.2.0
+235 verbose afterAdd /home/jahnnobi/.npm/lodash.assign/4.2.0/package/package.json not in flight; writing
+236 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+237 verbose afterAdd /home/jahnnobi/.npm/lodash.assign/4.2.0/package/package.json written
+238 http fetch 200 http://registry.npm.taobao.org/lodash.clonedeep/download/lodash.clonedeep-4.5.0.tgz
+239 silly fetchAndShaCheck shasum e23f3f9c4f8fbdde872529c1071857a086e5ccef
+240 verbose addTmpTarball /tmp/npm-5536-c2b96d77/registry.npm.taobao.org/lodash.clonedeep/download/lodash.clonedeep-4.5.0.tgz not in flight; adding
+241 verbose addTmpTarball already have metadata; skipping unpack for lodash.clonedeep@4.5.0
+242 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+243 silly cache afterAdd lodash.clonedeep@4.5.0
+244 verbose afterAdd /home/jahnnobi/.npm/lodash.clonedeep/4.5.0/package/package.json not in flight; writing
+245 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+246 verbose afterAdd /home/jahnnobi/.npm/lodash.clonedeep/4.5.0/package/package.json written
+247 http fetch 200 http://registry.npm.taobao.org/lodash.mergewith/download/lodash.mergewith-4.6.2.tgz
+248 silly fetchAndShaCheck shasum 617121f89ac55f59047c7aec1ccd6654c6590f55
+249 verbose addTmpTarball /tmp/npm-5536-c2b96d77/registry.npm.taobao.org/lodash.mergewith/download/lodash.mergewith-4.6.2.tgz not in flight; adding
+250 verbose addTmpTarball already have metadata; skipping unpack for lodash.mergewith@4.6.2
+251 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+252 silly cache afterAdd lodash.mergewith@4.6.2
+253 verbose afterAdd /home/jahnnobi/.npm/lodash.mergewith/4.6.2/package/package.json not in flight; writing
+254 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+255 verbose afterAdd /home/jahnnobi/.npm/lodash.mergewith/4.6.2/package/package.json written
+256 info attempt registry request try #2 at 4:40:31 AM
+257 verbose etag W/"8375d42ab507bdcee9179fdd046463fe"
+258 http request GET http://registry.npm.taobao.org/mkdirp
+259 info attempt registry request try #2 at 4:40:32 AM
+260 verbose etag W/"7ba9916ba23e3fb7f1cb5cc493e43314"
+261 http request GET http://registry.npm.taobao.org/node-gyp
+262 info retry will retry, error on last attempt: Error: unexpected end of file
+263 info retry will retry, error on last attempt: Error: unexpected end of file
+264 info attempt registry request try #3 at 4:41:32 AM
+265 verbose etag W/"8375d42ab507bdcee9179fdd046463fe"
+266 http request GET http://registry.npm.taobao.org/mkdirp
+267 info attempt registry request try #3 at 4:41:32 AM
+268 verbose etag W/"7ba9916ba23e3fb7f1cb5cc493e43314"
+269 http request GET http://registry.npm.taobao.org/node-gyp
+270 silly get cb [ 304, undefined ]
+271 verbose etag http://registry.npm.taobao.org/mkdirp from cache
+272 verbose get saving mkdirp to /home/jahnnobi/.npm/registry.npm.taobao.org/mkdirp/.cache.json
+273 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+274 silly resolveWithNewModule mkdirp@0.5.5 checking installable status
+275 silly cache add args [ 'mkdirp@^0.5.1', null ]
+276 verbose cache add spec mkdirp@^0.5.1
+277 silly cache add parsed spec Result {
+277 silly cache add   raw: 'mkdirp@^0.5.1',
+277 silly cache add   scope: null,
+277 silly cache add   escapedName: 'mkdirp',
+277 silly cache add   name: 'mkdirp',
+277 silly cache add   rawSpec: '^0.5.1',
+277 silly cache add   spec: '>=0.5.1 <0.6.0',
+277 silly cache add   type: 'range'
+277 silly cache add }
+278 silly addNamed mkdirp@>=0.5.1 <0.6.0
+279 verbose addNamed ">=0.5.1 <0.6.0" is a valid semver range for mkdirp
+280 silly addNameRange { name: 'mkdirp', range: '>=0.5.1 <0.6.0', hasData: false }
+281 silly mapToRegistry name mkdirp
+282 silly mapToRegistry using default registry
+283 silly mapToRegistry registry http://registry.npm.taobao.org/
+284 silly mapToRegistry data Result {
+284 silly mapToRegistry   raw: 'mkdirp',
+284 silly mapToRegistry   scope: null,
+284 silly mapToRegistry   escapedName: 'mkdirp',
+284 silly mapToRegistry   name: 'mkdirp',
+284 silly mapToRegistry   rawSpec: '',
+284 silly mapToRegistry   spec: 'latest',
+284 silly mapToRegistry   type: 'tag'
+284 silly mapToRegistry }
+285 silly mapToRegistry uri http://registry.npm.taobao.org/mkdirp
+286 verbose addNameRange registry:http://registry.npm.taobao.org/mkdirp not in flight; fetching
+287 verbose get http://registry.npm.taobao.org/mkdirp not expired, no request
+288 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.1 <0.6.0', hasData: true }
+289 silly addNameRange versions [
+289 silly addNameRange   'mkdirp',
+289 silly addNameRange   [
+289 silly addNameRange     '0.5.5', '1.0.4', '0.5.4', '0.5.3',
+289 silly addNameRange     '0.5.2', '1.0.3', '1.0.2', '1.0.1',
+289 silly addNameRange     '1.0.0', '0.5.1', '0.5.0', '0.4.2',
+289 silly addNameRange     '0.4.1', '0.4.0', '0.3.5', '0.3.4',
+289 silly addNameRange     '0.3.3', '0.3.2', '0.3.1', '0.3.0',
+289 silly addNameRange     '0.2.2', '0.2.1', '0.2.0', '0.1.0',
+289 silly addNameRange     '0.0.7', '0.0.6', '0.0.5', '0.0.4',
+289 silly addNameRange     '0.0.3', '0.0.2', '0.0.1'
+289 silly addNameRange   ]
+289 silly addNameRange ]
+290 silly addNamed mkdirp@0.5.5
+291 verbose addNamed "0.5.5" is a plain semver version for mkdirp
+292 silly get cb [ 304, undefined ]
+293 verbose etag http://registry.npm.taobao.org/node-gyp from cache
+294 verbose get saving node-gyp to /home/jahnnobi/.npm/registry.npm.taobao.org/node-gyp/.cache.json
+295 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+296 silly cache afterAdd mkdirp@0.5.5
+297 verbose afterAdd /home/jahnnobi/.npm/mkdirp/0.5.5/package/package.json not in flight; writing
+298 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+299 verbose afterAdd /home/jahnnobi/.npm/mkdirp/0.5.5/package/package.json written
+300 silly resolveWithNewModule node-gyp@3.8.0 checking installable status
+301 silly cache add args [ 'node-gyp@^3.3.1', null ]
+302 verbose cache add spec node-gyp@^3.3.1
+303 silly cache add parsed spec Result {
+303 silly cache add   raw: 'node-gyp@^3.3.1',
+303 silly cache add   scope: null,
+303 silly cache add   escapedName: 'node-gyp',
+303 silly cache add   name: 'node-gyp',
+303 silly cache add   rawSpec: '^3.3.1',
+303 silly cache add   spec: '>=3.3.1 <4.0.0',
+303 silly cache add   type: 'range'
+303 silly cache add }
+304 silly addNamed node-gyp@>=3.3.1 <4.0.0
+305 verbose addNamed ">=3.3.1 <4.0.0" is a valid semver range for node-gyp
+306 silly addNameRange { name: 'node-gyp', range: '>=3.3.1 <4.0.0', hasData: false }
+307 silly mapToRegistry name node-gyp
+308 silly mapToRegistry using default registry
+309 silly mapToRegistry registry http://registry.npm.taobao.org/
+310 silly mapToRegistry data Result {
+310 silly mapToRegistry   raw: 'node-gyp',
+310 silly mapToRegistry   scope: null,
+310 silly mapToRegistry   escapedName: 'node-gyp',
+310 silly mapToRegistry   name: 'node-gyp',
+310 silly mapToRegistry   rawSpec: '',
+310 silly mapToRegistry   spec: 'latest',
+310 silly mapToRegistry   type: 'tag'
+310 silly mapToRegistry }
+311 silly mapToRegistry uri http://registry.npm.taobao.org/node-gyp
+312 verbose addNameRange registry:http://registry.npm.taobao.org/node-gyp not in flight; fetching
+313 verbose get http://registry.npm.taobao.org/node-gyp not expired, no request
+314 silly addNameRange number 2 { name: 'node-gyp', range: '>=3.3.1 <4.0.0', hasData: true }
+315 silly addNameRange versions [
+315 silly addNameRange   'node-gyp',
+315 silly addNameRange   [
+315 silly addNameRange     '7.0.0',  '5.1.1',   '5.1.0',  '6.1.0',  '5.0.7',  '5.0.6',
+315 silly addNameRange     '6.0.1',  '6.0.0',   '5.0.5',  '5.0.4',  '5.0.3',  '5.0.2',
+315 silly addNameRange     '5.0.1',  '5.0.0',   '4.0.0',  '3.8.0',  '3.7.0',  '3.6.3',
+315 silly addNameRange     '3.6.2',  '3.6.1',   '3.6.0',  '3.5.0',  '3.4.0',  '3.3.1',
+315 silly addNameRange     '3.3.0',  '3.2.1',   '3.2.0',  '3.1.0',  '3.0.3',  '3.0.2',
+315 silly addNameRange     '3.0.1',  '3.0.0',   '2.0.2',  '2.0.1',  '2.0.0',  '1.0.3',
+315 silly addNameRange     '1.0.2',  '1.0.1',   '1.0.0',  '0.13.1', '0.13.0', '0.10.1',
+315 silly addNameRange     '0.9.1',  '0.9.0',   '0.5.0',  '0.12.2', '0.12.1', '0.12.0',
+315 silly addNameRange     '0.11.0', '0.10.10', '0.10.9', '0.10.8', '0.10.7', '0.10.6',
+315 silly addNameRange     '0.10.5', '0.10.4',  '0.10.3', '0.10.2', '0.10.0', '0.9.6',
+315 silly addNameRange     '0.9.5',  '0.9.4',   '0.9.3',  '0.9.2',  '0.8.5',  '0.8.4',
+315 silly addNameRange     '0.8.3',  '0.8.2',   '0.8.1',  '0.8.0',  '0.7.3',  '0.7.2',
+315 silly addNameRange     '0.7.1',  '0.7.0',   '0.6.11', '0.6.10', '0.6.9',  '0.6.8',
+315 silly addNameRange     '0.6.7',  '0.6.6',   '0.6.5',  '0.6.4',  '0.6.3',  '0.6.2',
+315 silly addNameRange     '0.6.1',  '0.6.0',   '0.5.8',  '0.5.7',  '0.5.6',  '0.5.5',
+315 silly addNameRange     '0.5.4',  '0.5.3',   '0.5.2',  '0.5.1',  '0.4.5',  '0.4.4',
+315 silly addNameRange     '0.4.3',  '0.4.2',   '0.4.1',  '0.4.0',
+315 silly addNameRange     ... 25 more items
+315 silly addNameRange   ]
+315 silly addNameRange ]
+316 silly addNamed node-gyp@3.8.0
+317 verbose addNamed "3.8.0" is a plain semver version for node-gyp
+318 silly cache afterAdd node-gyp@3.8.0
+319 verbose afterAdd /home/jahnnobi/.npm/node-gyp/3.8.0/package/package.json not in flight; writing
+320 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+321 verbose afterAdd /home/jahnnobi/.npm/node-gyp/3.8.0/package/package.json written
+322 silly fetchNamedPackageData semver
+323 silly mapToRegistry name semver
+324 silly mapToRegistry using default registry
+325 silly mapToRegistry registry http://registry.npm.taobao.org/
+326 silly mapToRegistry data Result {
+326 silly mapToRegistry   raw: 'semver',
+326 silly mapToRegistry   scope: null,
+326 silly mapToRegistry   escapedName: 'semver',
+326 silly mapToRegistry   name: 'semver',
+326 silly mapToRegistry   rawSpec: '',
+326 silly mapToRegistry   spec: 'latest',
+326 silly mapToRegistry   type: 'tag'
+326 silly mapToRegistry }
+327 silly mapToRegistry uri http://registry.npm.taobao.org/semver
+328 verbose request uri http://registry.npm.taobao.org/semver
+329 verbose request no auth needed
+330 info attempt registry request try #1 at 4:41:32 AM
+331 verbose etag W/"e8fbe548f5b8e75e3fc0ffd316dd7c51"
+332 http request GET http://registry.npm.taobao.org/semver
+333 info retry will retry, error on last attempt: Error: unexpected end of file
+334 info attempt registry request try #2 at 4:41:43 AM
+335 verbose etag W/"e8fbe548f5b8e75e3fc0ffd316dd7c51"
+336 http request GET http://registry.npm.taobao.org/semver
+337 info retry will retry, error on last attempt: Error: unexpected end of file
+338 info attempt registry request try #3 at 4:42:43 AM
+339 verbose etag W/"e8fbe548f5b8e75e3fc0ffd316dd7c51"
+340 http request GET http://registry.npm.taobao.org/semver
+341 silly get cb [ 304, undefined ]
+342 verbose etag http://registry.npm.taobao.org/semver from cache
+343 verbose get saving semver to /home/jahnnobi/.npm/registry.npm.taobao.org/semver/.cache.json
+344 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+345 silly resolveWithNewModule semver@5.3.0 checking installable status
+346 silly cache add args [ 'semver@~5.3.0', null ]
+347 verbose cache add spec semver@~5.3.0
+348 silly cache add parsed spec Result {
+348 silly cache add   raw: 'semver@~5.3.0',
+348 silly cache add   scope: null,
+348 silly cache add   escapedName: 'semver',
+348 silly cache add   name: 'semver',
+348 silly cache add   rawSpec: '~5.3.0',
+348 silly cache add   spec: '>=5.3.0 <5.4.0',
+348 silly cache add   type: 'range'
+348 silly cache add }
+349 silly addNamed semver@>=5.3.0 <5.4.0
+350 verbose addNamed ">=5.3.0 <5.4.0" is a valid semver range for semver
+351 silly addNameRange { name: 'semver', range: '>=5.3.0 <5.4.0', hasData: false }
+352 silly mapToRegistry name semver
+353 silly mapToRegistry using default registry
+354 silly mapToRegistry registry http://registry.npm.taobao.org/
+355 silly mapToRegistry data Result {
+355 silly mapToRegistry   raw: 'semver',
+355 silly mapToRegistry   scope: null,
+355 silly mapToRegistry   escapedName: 'semver',
+355 silly mapToRegistry   name: 'semver',
+355 silly mapToRegistry   rawSpec: '',
+355 silly mapToRegistry   spec: 'latest',
+355 silly mapToRegistry   type: 'tag'
+355 silly mapToRegistry }
+356 silly mapToRegistry uri http://registry.npm.taobao.org/semver
+357 verbose addNameRange registry:http://registry.npm.taobao.org/semver not in flight; fetching
+358 verbose get http://registry.npm.taobao.org/semver not expired, no request
+359 silly addNameRange number 2 { name: 'semver', range: '>=5.3.0 <5.4.0', hasData: true }
+360 silly addNameRange versions [
+360 silly addNameRange   'semver',
+360 silly addNameRange   [
+360 silly addNameRange     '7.3.2',  '7.3.1',  '7.3.0',  '7.2.3',      '7.2.2',
+360 silly addNameRange     '7.2.1',  '7.2.0',  '7.1.3',  '7.1.2',      '7.1.1',
+360 silly addNameRange     '7.1.0',  '7.0.0',  '5.7.1',  '6.3.0',      '6.2.0',
+360 silly addNameRange     '6.1.3',  '6.1.2',  '6.1.1',  '6.1.0',      '6.0.0',
+360 silly addNameRange     '5.7.0',  '5.6.0',  '5.5.1',  '5.5.0',      '5.4.1',
+360 silly addNameRange     '5.4.0',  '5.3.0',  '5.2.0',  '5.1.1',      '5.1.0',
+360 silly addNameRange     '5.0.3',  '5.0.2',  '5.0.1',  '5.0.0',      '4.3.6',
+360 silly addNameRange     '4.3.5',  '4.3.4',  '4.3.3',  '4.3.2',      '4.3.1',
+360 silly addNameRange     '4.3.0',  '4.2.2',  '4.2.1',  '4.2.0',      '4.1.1',
+360 silly addNameRange     '4.1.0',  '4.0.3',  '4.0.2',  '4.0.0',      '3.0.1',
+360 silly addNameRange     '3.0.0',  '2.3.2',  '2.3.1',  '2.3.0',      '2.2.1',
+360 silly addNameRange     '2.2.0',  '2.1.0',  '2.0.11', '2.0.10',     '2.0.9',
+360 silly addNameRange     '2.0.8',  '2.0.7',  '2.0.6',  '2.0.5',      '2.0.4',
+360 silly addNameRange     '2.0.3',  '2.0.2',  '2.0.1',  '2.0.0-beta', '2.0.0-alpha',
+360 silly addNameRange     '1.1.4',  '1.1.3',  '1.1.2',  '1.1.1',      '1.1.0',
+360 silly addNameRange     '1.0.14', '1.0.13', '1.0.12', '1.0.11',     '1.0.10',
+360 silly addNameRange     '1.0.9',  '1.0.8',  '1.0.7',  '1.0.6',      '1.0.5',
+360 silly addNameRange     '1.0.4',  '1.0.3',  '1.0.2',  '1.0.1',      '1.0.0'
+360 silly addNameRange   ]
+360 silly addNameRange ]
+361 silly addNamed semver@5.3.0
+362 verbose addNamed "5.3.0" is a plain semver version for semver
+363 silly cache afterAdd semver@5.3.0
+364 verbose afterAdd /home/jahnnobi/.npm/semver/5.3.0/package/package.json not in flight; writing
+365 verbose correctMkdir /home/jahnnobi/.npm correctMkdir not in flight; initializing
+366 verbose afterAdd /home/jahnnobi/.npm/semver/5.3.0/package/package.json written
+367 silly loadAllDepsIntoIdealTree Finishing
+368 silly loadIdealTree Finishing
+369 silly currentTree flog@1.0.0
+369 silly currentTree ├── abbrev@1.1.1
+369 silly currentTree ├── ajv@6.12.2
+369 silly currentTree ├── amdefine@1.0.1
+369 silly currentTree ├── ansi-regex@2.1.1
+369 silly currentTree ├── ansi-styles@2.2.1
+369 silly currentTree ├── aproba@1.2.0
+369 silly currentTree ├── are-we-there-yet@1.1.5
+369 silly currentTree ├── array-find-index@1.0.2
+369 silly currentTree ├── asn1@0.2.4
+369 silly currentTree ├── assert-plus@1.0.0
+369 silly currentTree ├── async-foreach@0.1.3
+369 silly currentTree ├── asynckit@0.4.0
+369 silly currentTree ├── aws-sign2@0.7.0
+369 silly currentTree ├── aws4@1.10.0
+369 silly currentTree ├── balanced-match@1.0.0
+369 silly currentTree ├── bcrypt-pbkdf@1.0.2
+369 silly currentTree ├── block-stream@0.0.9
+369 silly currentTree ├── brace-expansion@1.1.11
+369 silly currentTree ├── camelcase-keys@2.1.0
+369 silly currentTree ├── camelcase@2.1.1
+369 silly currentTree ├── caseless@0.12.0
+369 silly currentTree ├── chalk@1.1.3
+369 silly currentTree ├─┬ cliui@5.0.0
+369 silly currentTree │ ├── ansi-regex@4.1.0
+369 silly currentTree │ ├── is-fullwidth-code-point@2.0.0
+369 silly currentTree │ ├── string-width@3.1.0
+369 silly currentTree │ └── strip-ansi@5.2.0
+369 silly currentTree ├── code-point-at@1.1.0
+369 silly currentTree ├── color-convert@1.9.3
+369 silly currentTree ├── color-name@1.1.3
+369 silly currentTree ├── combined-stream@1.0.8
+369 silly currentTree ├── concat-map@0.0.1
+369 silly currentTree ├── console-control-strings@1.1.0
+369 silly currentTree ├── core-util-is@1.0.2
+369 silly currentTree ├── cross-spawn@3.0.1
+369 silly currentTree ├── currently-unhandled@0.4.1
+369 silly currentTree ├── dashdash@1.14.1
+369 silly currentTree ├── decamelize@1.2.0
+369 silly currentTree ├── delayed-stream@1.0.0
+369 silly currentTree ├── delegates@1.0.0
+369 silly currentTree ├── ecc-jsbn@0.1.2
+369 silly currentTree ├── emoji-regex@7.0.3
+369 silly currentTree ├── error-ex@1.3.2
+369 silly currentTree ├── escape-string-regexp@1.0.5
+369 silly currentTree ├── extend@3.0.2
+369 silly currentTree ├── extsprintf@1.3.0
+369 silly currentTree ├── fast-deep-equal@3.1.3
+369 silly currentTree ├── fast-json-stable-stringify@2.1.0
+369 silly currentTree ├── find-up@1.1.2
+369 silly currentTree ├── forever-agent@0.6.1
+369 silly currentTree ├── form-data@2.3.3
+369 silly currentTree ├── fs.realpath@1.0.0
+369 silly currentTree ├── fstream@1.0.12
+369 silly currentTree ├── gauge@2.7.4
+369 silly currentTree ├── gaze@1.1.3
+369 silly currentTree ├── get-caller-file@2.0.5
+369 silly currentTree ├── get-stdin@4.0.1
+369 silly currentTree ├── getpass@0.1.7
+369 silly currentTree ├── glob@7.1.6
+369 silly currentTree ├── globule@1.3.2
+369 silly currentTree ├── graceful-fs@4.2.4
+369 silly currentTree ├── har-schema@2.0.0
+369 silly currentTree ├── har-validator@5.1.3
+369 silly currentTree ├── has-ansi@2.0.0
+369 silly currentTree ├── has-unicode@2.0.1
+369 silly currentTree ├── hosted-git-info@2.8.8
+369 silly currentTree ├── http-signature@1.2.0
+369 silly currentTree ├── in-publish@2.0.1
+369 silly currentTree ├── indent-string@2.1.0
+369 silly currentTree ├── inflight@1.0.6
+369 silly currentTree ├── inherits@2.0.4
+369 silly currentTree ├── is-arrayish@0.2.1
+369 silly currentTree ├── is-finite@1.1.0
+369 silly currentTree ├── is-fullwidth-code-point@1.0.0
+369 silly currentTree ├── is-typedarray@1.0.0
+369 silly currentTree ├── is-utf8@0.2.1
+369 silly currentTree ├── isarray@1.0.0
+369 silly currentTree ├── isexe@2.0.0
+369 silly currentTree ├── isstream@0.1.2
+369 silly currentTree ├── js-base64@2.5.2
+369 silly currentTree ├── jsbn@0.1.1
+369 silly currentTree ├── json-schema-traverse@0.4.1
+369 silly currentTree ├── json-schema@0.2.3
+369 silly currentTree ├── json-stringify-safe@5.0.1
+369 silly currentTree ├── jsprim@1.4.1
+369 silly currentTree ├── load-json-file@1.1.0
+369 silly currentTree ├─┬ locate-path@3.0.0
+369 silly currentTree │ └── path-exists@3.0.0
+369 silly currentTree ├── lodash@4.17.15
+369 silly currentTree ├── loud-rejection@1.6.0
+369 silly currentTree ├── lru-cache@4.1.5
+369 silly currentTree ├── map-obj@1.0.1
+369 silly currentTree ├── meow@3.7.0
+369 silly currentTree ├── mime-db@1.44.0
+369 silly currentTree ├── mime-types@2.1.27
+369 silly currentTree ├── minimatch@3.0.4
+369 silly currentTree ├── minimist@1.2.5
+369 silly currentTree ├── nan@2.14.1
+369 silly currentTree ├── nopt@3.0.6
+369 silly currentTree ├── normalize-package-data@2.5.0
+369 silly currentTree ├── npmlog@4.1.2
+369 silly currentTree ├── number-is-nan@1.0.1
+369 silly currentTree ├── oauth-sign@0.9.0
+369 silly currentTree ├── object-assign@4.1.1
+369 silly currentTree ├── once@1.4.0
+369 silly currentTree ├── os-homedir@1.0.2
+369 silly currentTree ├── os-tmpdir@1.0.2
+369 silly currentTree ├── osenv@0.1.5
+369 silly currentTree ├── p-limit@2.3.0
+369 silly currentTree ├── p-locate@3.0.0
+369 silly currentTree ├── p-try@2.2.0
+369 silly currentTree ├── parse-json@2.2.0
+369 silly currentTree ├── path-exists@2.1.0
+369 silly currentTree ├── path-is-absolute@1.0.1
+369 silly currentTree ├── path-parse@1.0.6
+369 silly currentTree ├── path-type@1.1.0
+369 silly currentTree ├── performance-now@2.1.0
+369 silly currentTree ├── pify@2.3.0
+369 silly currentTree ├── pinkie-promise@2.0.1
+369 silly currentTree ├── pinkie@2.0.4
+369 silly currentTree ├── process-nextick-args@2.0.1
+369 silly currentTree ├── pseudomap@1.0.2
+369 silly currentTree ├── psl@1.8.0
+369 silly currentTree ├── punycode@2.1.1
+369 silly currentTree ├── qs@6.5.2
+369 silly currentTree ├── read-pkg-up@1.0.1
+369 silly currentTree ├── read-pkg@1.1.0
+369 silly currentTree ├── readable-stream@2.3.7
+369 silly currentTree ├── redent@1.0.0
+369 silly currentTree ├── repeating@2.0.1
+369 silly currentTree ├── request@2.88.2
+369 silly currentTree ├── require-directory@2.1.1
+369 silly currentTree ├── require-main-filename@2.0.0
+369 silly currentTree ├── resolve@1.17.0
+369 silly currentTree ├── rimraf@2.7.1
+369 silly currentTree ├── safe-buffer@5.1.2
+369 silly currentTree ├── safer-buffer@2.1.2
+369 silly currentTree ├── sass-graph@2.2.5
+369 silly currentTree ├── scss-tokenizer@0.2.3
+369 silly currentTree ├── semver@5.7.1
+369 silly currentTree ├── set-blocking@2.0.0
+369 silly currentTree ├── signal-exit@3.0.3
+369 silly currentTree ├── source-map@0.4.4
+369 silly currentTree ├── spdx-correct@3.1.1
+369 silly currentTree ├── spdx-exceptions@2.3.0
+369 silly currentTree ├── spdx-expression-parse@3.0.1
+369 silly currentTree ├── spdx-license-ids@3.0.5
+369 silly currentTree ├── sshpk@1.16.1
+369 silly currentTree ├── stdout-stream@1.4.1
+369 silly currentTree ├── string_decoder@1.1.1
+369 silly currentTree ├── string-width@1.0.2
+369 silly currentTree ├── strip-ansi@3.0.1
+369 silly currentTree ├── strip-bom@2.0.0
+369 silly currentTree ├── strip-indent@1.0.1
+369 silly currentTree ├── supports-color@2.0.0
+369 silly currentTree ├── tar@2.2.2
+369 silly currentTree ├── tough-cookie@2.5.0
+369 silly currentTree ├── trim-newlines@1.0.0
+369 silly currentTree ├── true-case-path@1.0.3
+369 silly currentTree ├── tunnel-agent@0.6.0
+369 silly currentTree ├── tweetnacl@0.14.5
+369 silly currentTree ├── uri-js@4.2.2
+369 silly currentTree ├── util-deprecate@1.0.2
+369 silly currentTree ├── uuid@3.4.0
+369 silly currentTree ├── validate-npm-package-license@3.0.4
+369 silly currentTree ├── verror@1.10.0
+369 silly currentTree ├── which-module@2.0.0
+369 silly currentTree ├── which@1.3.1
+369 silly currentTree ├── wide-align@1.1.3
+369 silly currentTree ├─┬ wrap-ansi@5.1.0
+369 silly currentTree │ ├── ansi-regex@4.1.0
+369 silly currentTree │ ├── ansi-styles@3.2.1
+369 silly currentTree │ ├── is-fullwidth-code-point@2.0.0
+369 silly currentTree │ ├── string-width@3.1.0
+369 silly currentTree │ └── strip-ansi@5.2.0
+369 silly currentTree ├── wrappy@1.0.2
+369 silly currentTree ├── y18n@4.0.0
+369 silly currentTree ├── yallist@2.1.2
+369 silly currentTree ├─┬ yargs-parser@13.1.2
+369 silly currentTree │ └── camelcase@5.3.1
+369 silly currentTree └─┬ yargs@13.3.2
+369 silly currentTree   ├── ansi-regex@4.1.0
+369 silly currentTree   ├── find-up@3.0.0
+369 silly currentTree   ├── is-fullwidth-code-point@2.0.0
+369 silly currentTree   ├── string-width@3.1.0
+369 silly currentTree   └── strip-ansi@5.2.0
+370 silly idealTree flog@1.0.0
+370 silly idealTree ├── abbrev@1.1.1
+370 silly idealTree ├── ajv@6.12.2
+370 silly idealTree ├── amdefine@1.0.1
+370 silly idealTree ├── ansi-regex@2.1.1
+370 silly idealTree ├── ansi-styles@2.2.1
+370 silly idealTree ├── aproba@1.2.0
+370 silly idealTree ├── are-we-there-yet@1.1.5
+370 silly idealTree ├── array-find-index@1.0.2
+370 silly idealTree ├── asn1@0.2.4
+370 silly idealTree ├── assert-plus@1.0.0
+370 silly idealTree ├── async-foreach@0.1.3
+370 silly idealTree ├── asynckit@0.4.0
+370 silly idealTree ├── aws-sign2@0.7.0
+370 silly idealTree ├── aws4@1.10.0
+370 silly idealTree ├── balanced-match@1.0.0
+370 silly idealTree ├── bcrypt-pbkdf@1.0.2
+370 silly idealTree ├── block-stream@0.0.9
+370 silly idealTree ├── brace-expansion@1.1.11
+370 silly idealTree ├── camelcase-keys@2.1.0
+370 silly idealTree ├── camelcase@2.1.1
+370 silly idealTree ├── caseless@0.12.0
+370 silly idealTree ├── chalk@1.1.3
+370 silly idealTree ├─┬ cliui@5.0.0
+370 silly idealTree │ ├── ansi-regex@4.1.0
+370 silly idealTree │ ├── is-fullwidth-code-point@2.0.0
+370 silly idealTree │ ├── string-width@3.1.0
+370 silly idealTree │ └── strip-ansi@5.2.0
+370 silly idealTree ├── code-point-at@1.1.0
+370 silly idealTree ├── color-convert@1.9.3
+370 silly idealTree ├── color-name@1.1.3
+370 silly idealTree ├── combined-stream@1.0.8
+370 silly idealTree ├── concat-map@0.0.1
+370 silly idealTree ├── console-control-strings@1.1.0
+370 silly idealTree ├── core-util-is@1.0.2
+370 silly idealTree ├── cross-spawn@3.0.1
+370 silly idealTree ├── currently-unhandled@0.4.1
+370 silly idealTree ├── dashdash@1.14.1
+370 silly idealTree ├── decamelize@1.2.0
+370 silly idealTree ├── delayed-stream@1.0.0
+370 silly idealTree ├── delegates@1.0.0
+370 silly idealTree ├── ecc-jsbn@0.1.2
+370 silly idealTree ├── emoji-regex@7.0.3
+370 silly idealTree ├── error-ex@1.3.2
+370 silly idealTree ├── escape-string-regexp@1.0.5
+370 silly idealTree ├── extend@3.0.2
+370 silly idealTree ├── extsprintf@1.3.0
+370 silly idealTree ├── fast-deep-equal@3.1.3
+370 silly idealTree ├── fast-json-stable-stringify@2.1.0
+370 silly idealTree ├── find-up@1.1.2
+370 silly idealTree ├── forever-agent@0.6.1
+370 silly idealTree ├── form-data@2.3.3
+370 silly idealTree ├── fs.realpath@1.0.0
+370 silly idealTree ├── fstream@1.0.12
+370 silly idealTree ├── gauge@2.7.4
+370 silly idealTree ├── gaze@1.1.3
+370 silly idealTree ├── get-caller-file@2.0.5
+370 silly idealTree ├── get-stdin@4.0.1
+370 silly idealTree ├── getpass@0.1.7
+370 silly idealTree ├── glob@7.1.6
+370 silly idealTree ├── globule@1.3.2
+370 silly idealTree ├── graceful-fs@4.2.4
+370 silly idealTree ├── har-schema@2.0.0
+370 silly idealTree ├── har-validator@5.1.3
+370 silly idealTree ├── has-ansi@2.0.0
+370 silly idealTree ├── has-unicode@2.0.1
+370 silly idealTree ├── hosted-git-info@2.8.8
+370 silly idealTree ├── http-signature@1.2.0
+370 silly idealTree ├── in-publish@2.0.1
+370 silly idealTree ├── indent-string@2.1.0
+370 silly idealTree ├── inflight@1.0.6
+370 silly idealTree ├── inherits@2.0.4
+370 silly idealTree ├── is-arrayish@0.2.1
+370 silly idealTree ├── is-finite@1.1.0
+370 silly idealTree ├── is-fullwidth-code-point@1.0.0
+370 silly idealTree ├── is-typedarray@1.0.0
+370 silly idealTree ├── is-utf8@0.2.1
+370 silly idealTree ├── isarray@1.0.0
+370 silly idealTree ├── isexe@2.0.0
+370 silly idealTree ├── isstream@0.1.2
+370 silly idealTree ├── js-base64@2.5.2
+370 silly idealTree ├── jsbn@0.1.1
+370 silly idealTree ├── json-schema-traverse@0.4.1
+370 silly idealTree ├── json-schema@0.2.3
+370 silly idealTree ├── json-stringify-safe@5.0.1
+370 silly idealTree ├── jsprim@1.4.1
+370 silly idealTree ├── load-json-file@1.1.0
+370 silly idealTree ├─┬ locate-path@3.0.0
+370 silly idealTree │ └── path-exists@3.0.0
+370 silly idealTree ├── lodash.assign@4.2.0
+370 silly idealTree ├── lodash.clonedeep@4.5.0
+370 silly idealTree ├── lodash.mergewith@4.6.2
+370 silly idealTree ├── lodash@4.17.15
+370 silly idealTree ├── loud-rejection@1.6.0
+370 silly idealTree ├── lru-cache@4.1.5
+370 silly idealTree ├── map-obj@1.0.1
+370 silly idealTree ├── meow@3.7.0
+370 silly idealTree ├── mime-db@1.44.0
+370 silly idealTree ├── mime-types@2.1.27
+370 silly idealTree ├── minimatch@3.0.4
+370 silly idealTree ├── minimist@1.2.5
+370 silly idealTree ├── mkdirp@0.5.5
+370 silly idealTree ├── nan@2.14.1
+370 silly idealTree ├─┬ node-gyp@3.8.0
+370 silly idealTree │ └── semver@5.3.0
+370 silly idealTree ├── node-sass@4.5.3
+370 silly idealTree ├── nopt@3.0.6
+370 silly idealTree ├── normalize-package-data@2.5.0
+370 silly idealTree ├── npmlog@4.1.2
+370 silly idealTree ├── number-is-nan@1.0.1
+370 silly idealTree ├── oauth-sign@0.9.0
+370 silly idealTree ├── object-assign@4.1.1
+370 silly idealTree ├── once@1.4.0
+370 silly idealTree ├── os-homedir@1.0.2
+370 silly idealTree ├── os-tmpdir@1.0.2
+370 silly idealTree ├── osenv@0.1.5
+370 silly idealTree ├── p-limit@2.3.0
+370 silly idealTree ├── p-locate@3.0.0
+370 silly idealTree ├── p-try@2.2.0
+370 silly idealTree ├── parse-json@2.2.0
+370 silly idealTree ├── path-exists@2.1.0
+370 silly idealTree ├── path-is-absolute@1.0.1
+370 silly idealTree ├── path-parse@1.0.6
+370 silly idealTree ├── path-type@1.1.0
+370 silly idealTree ├── performance-now@2.1.0
+370 silly idealTree ├── pify@2.3.0
+370 silly idealTree ├── pinkie-promise@2.0.1
+370 silly idealTree ├── pinkie@2.0.4
+370 silly idealTree ├── process-nextick-args@2.0.1
+370 silly idealTree ├── pseudomap@1.0.2
+370 silly idealTree ├── psl@1.8.0
+370 silly idealTree ├── punycode@2.1.1
+370 silly idealTree ├── qs@6.5.2
+370 silly idealTree ├── read-pkg-up@1.0.1
+370 silly idealTree ├── read-pkg@1.1.0
+370 silly idealTree ├── readable-stream@2.3.7
+370 silly idealTree ├── redent@1.0.0
+370 silly idealTree ├── repeating@2.0.1
+370 silly idealTree ├── request@2.88.2
+370 silly idealTree ├── require-directory@2.1.1
+370 silly idealTree ├── require-main-filename@2.0.0
+370 silly idealTree ├── resolve@1.17.0
+370 silly idealTree ├── rimraf@2.7.1
+370 silly idealTree ├── safe-buffer@5.1.2
+370 silly idealTree ├── safer-buffer@2.1.2
+370 silly idealTree ├── sass-graph@2.2.5
+370 silly idealTree ├── scss-tokenizer@0.2.3
+370 silly idealTree ├── semver@5.7.1
+370 silly idealTree ├── set-blocking@2.0.0
+370 silly idealTree ├── signal-exit@3.0.3
+370 silly idealTree ├── source-map@0.4.4
+370 silly idealTree ├── spdx-correct@3.1.1
+370 silly idealTree ├── spdx-exceptions@2.3.0
+370 silly idealTree ├── spdx-expression-parse@3.0.1
+370 silly idealTree ├── spdx-license-ids@3.0.5
+370 silly idealTree ├── sshpk@1.16.1
+370 silly idealTree ├── stdout-stream@1.4.1
+370 silly idealTree ├── string_decoder@1.1.1
+370 silly idealTree ├── string-width@1.0.2
+370 silly idealTree ├── strip-ansi@3.0.1
+370 silly idealTree ├── strip-bom@2.0.0
+370 silly idealTree ├── strip-indent@1.0.1
+370 silly idealTree ├── supports-color@2.0.0
+370 silly idealTree ├── tar@2.2.2
+370 silly idealTree ├── tough-cookie@2.5.0
+370 silly idealTree ├── trim-newlines@1.0.0
+370 silly idealTree ├── true-case-path@1.0.3
+370 silly idealTree ├── tunnel-agent@0.6.0
+370 silly idealTree ├── tweetnacl@0.14.5
+370 silly idealTree ├── uri-js@4.2.2
+370 silly idealTree ├── util-deprecate@1.0.2
+370 silly idealTree ├── uuid@3.4.0
+370 silly idealTree ├── validate-npm-package-license@3.0.4
+370 silly idealTree ├── verror@1.10.0
+370 silly idealTree ├── which-module@2.0.0
+370 silly idealTree ├── which@1.3.1
+370 silly idealTree ├── wide-align@1.1.3
+370 silly idealTree ├─┬ wrap-ansi@5.1.0
+370 silly idealTree │ ├── ansi-regex@4.1.0
+370 silly idealTree │ ├── ansi-styles@3.2.1
+370 silly idealTree │ ├── is-fullwidth-code-point@2.0.0
+370 silly idealTree │ ├── string-width@3.1.0
+370 silly idealTree │ └── strip-ansi@5.2.0
+370 silly idealTree ├── wrappy@1.0.2
+370 silly idealTree ├── y18n@4.0.0
+370 silly idealTree ├── yallist@2.1.2
+370 silly idealTree ├─┬ yargs-parser@13.1.2
+370 silly idealTree │ └── camelcase@5.3.1
+370 silly idealTree └─┬ yargs@13.3.2
+370 silly idealTree   ├── ansi-regex@4.1.0
+370 silly idealTree   ├── find-up@3.0.0
+370 silly idealTree   ├── is-fullwidth-code-point@2.0.0
+370 silly idealTree   ├── string-width@3.1.0
+370 silly idealTree   └── strip-ansi@5.2.0
+371 silly generateActionsToTake Starting
+372 silly install generateActionsToTake
+373 silly generateActionsToTake Finishing
+374 silly diffTrees action count 7
+375 silly diffTrees add mkdirp@0.5.5
+376 silly diffTrees add semver@5.3.0
+377 silly diffTrees add lodash.assign@4.2.0
+378 silly diffTrees add lodash.clonedeep@4.5.0
+379 silly diffTrees add lodash.mergewith@4.6.2
+380 silly diffTrees add node-gyp@3.8.0
+381 silly diffTrees add node-sass@4.5.3
+382 silly decomposeActions action count 56
+383 silly decomposeActions fetch mkdirp@0.5.5
+384 silly decomposeActions extract mkdirp@0.5.5
+385 silly decomposeActions test mkdirp@0.5.5
+386 silly decomposeActions preinstall mkdirp@0.5.5
+387 silly decomposeActions build mkdirp@0.5.5
+388 silly decomposeActions install mkdirp@0.5.5
+389 silly decomposeActions postinstall mkdirp@0.5.5
+390 silly decomposeActions finalize mkdirp@0.5.5
+391 silly decomposeActions fetch semver@5.3.0
+392 silly decomposeActions extract semver@5.3.0
+393 silly decomposeActions test semver@5.3.0
+394 silly decomposeActions preinstall semver@5.3.0
+395 silly decomposeActions build semver@5.3.0
+396 silly decomposeActions install semver@5.3.0
+397 silly decomposeActions postinstall semver@5.3.0
+398 silly decomposeActions finalize semver@5.3.0
+399 silly decomposeActions fetch lodash.assign@4.2.0
+400 silly decomposeActions extract lodash.assign@4.2.0
+401 silly decomposeActions test lodash.assign@4.2.0
+402 silly decomposeActions preinstall lodash.assign@4.2.0
+403 silly decomposeActions build lodash.assign@4.2.0
+404 silly decomposeActions install lodash.assign@4.2.0
+405 silly decomposeActions postinstall lodash.assign@4.2.0
+406 silly decomposeActions finalize lodash.assign@4.2.0
+407 silly decomposeActions fetch lodash.clonedeep@4.5.0
+408 silly decomposeActions extract lodash.clonedeep@4.5.0
+409 silly decomposeActions test lodash.clonedeep@4.5.0
+410 silly decomposeActions preinstall lodash.clonedeep@4.5.0
+411 silly decomposeActions build lodash.clonedeep@4.5.0
+412 silly decomposeActions install lodash.clonedeep@4.5.0
+413 silly decomposeActions postinstall lodash.clonedeep@4.5.0
+414 silly decomposeActions finalize lodash.clonedeep@4.5.0
+415 silly decomposeActions fetch lodash.mergewith@4.6.2
+416 silly decomposeActions extract lodash.mergewith@4.6.2
+417 silly decomposeActions test lodash.mergewith@4.6.2
+418 silly decomposeActions preinstall lodash.mergewith@4.6.2
+419 silly decomposeActions build lodash.mergewith@4.6.2
+420 silly decomposeActions install lodash.mergewith@4.6.2
+421 silly decomposeActions postinstall lodash.mergewith@4.6.2
+422 silly decomposeActions finalize lodash.mergewith@4.6.2
+423 silly decomposeActions fetch node-gyp@3.8.0
+424 silly decomposeActions extract node-gyp@3.8.0
+425 silly decomposeActions test node-gyp@3.8.0
+426 silly decomposeActions preinstall node-gyp@3.8.0
+427 silly decomposeActions build node-gyp@3.8.0
+428 silly decomposeActions install node-gyp@3.8.0
+429 silly decomposeActions postinstall node-gyp@3.8.0
+430 silly decomposeActions finalize node-gyp@3.8.0
+431 silly decomposeActions fetch node-sass@4.5.3
+432 silly decomposeActions extract node-sass@4.5.3
+433 silly decomposeActions test node-sass@4.5.3
+434 silly decomposeActions preinstall node-sass@4.5.3
+435 silly decomposeActions build node-sass@4.5.3
+436 silly decomposeActions install node-sass@4.5.3
+437 silly decomposeActions postinstall node-sass@4.5.3
+438 silly decomposeActions finalize node-sass@4.5.3
+439 silly runTopLevelLifecycles Starting
+440 silly executeActions Starting
+441 silly install executeActions
+442 silly doSerial global-install 0
+443 silly doParallel fetch 7
+444 verbose correctMkdir /home/jahnnobi/.npm/_locks correctMkdir not in flight; initializing
+445 verbose lock using /home/jahnnobi/.npm/_locks/staging-b03afc1ebed1d813.lock for /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging
+446 silly doParallel extract 7
+447 silly extract mkdirp@0.5.5
+448 silly extract semver@5.3.0
+449 silly extract lodash.assign@4.2.0
+450 silly extract lodash.clonedeep@4.5.0
+451 silly extract lodash.mergewith@4.6.2
+452 silly extract node-gyp@3.8.0
+453 silly extract node-sass@4.5.3
+454 verbose unbuild node_modules/.staging/lodash.assign-be29c554
+455 verbose unbuild node_modules/.staging/lodash.clonedeep-839045ea
+456 verbose unbuild node_modules/.staging/lodash.mergewith-912f28ad
+457 verbose unbuild node_modules/.staging/mkdirp-7c497485
+458 verbose unbuild node_modules/.staging/semver-2718cbdc
+459 verbose unbuild node_modules/.staging/node-gyp-5764835d
+460 verbose unbuild node_modules/.staging/node-sass-ddae2fcf
+461 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.assign-be29c554 is being purged from base /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0
+462 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.assign-be29c554
+463 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.clonedeep-839045ea is being purged from base /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0
+464 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.clonedeep-839045ea
+465 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.mergewith-912f28ad is being purged from base /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0
+466 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.mergewith-912f28ad
+467 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/mkdirp-7c497485 is being purged from base /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0
+468 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/mkdirp-7c497485
+469 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/semver-2718cbdc is being purged from base /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0
+470 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/semver-2718cbdc
+471 verbose tar unpack /home/jahnnobi/.npm/lodash.assign/4.2.0/package.tgz
+472 verbose tar unpacking to /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.assign-be29c554
+473 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.assign-be29c554 is being purged
+474 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.assign-be29c554
+475 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/node-gyp-5764835d is being purged from base /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0
+476 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/node-gyp-5764835d
+477 verbose tar unpack /home/jahnnobi/.npm/lodash.clonedeep/4.5.0/package.tgz
+478 verbose tar unpacking to /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.clonedeep-839045ea
+479 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.clonedeep-839045ea is being purged
+480 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.clonedeep-839045ea
+481 verbose tar unpack /home/jahnnobi/.npm/lodash.mergewith/4.6.2/package.tgz
+482 verbose tar unpacking to /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.mergewith-912f28ad
+483 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.mergewith-912f28ad is being purged
+484 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.mergewith-912f28ad
+485 verbose tar unpack /home/jahnnobi/.npm/mkdirp/0.5.5/package.tgz
+486 verbose tar unpacking to /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/mkdirp-7c497485
+487 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/mkdirp-7c497485 is being purged
+488 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/mkdirp-7c497485
+489 verbose tar unpack /home/jahnnobi/.npm/semver/5.3.0/package.tgz
+490 verbose tar unpacking to /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/semver-2718cbdc
+491 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/semver-2718cbdc is being purged
+492 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/semver-2718cbdc
+493 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/node-sass-ddae2fcf is being purged from base /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0
+494 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/node-sass-ddae2fcf
+495 silly gunzTarPerm modes [ '755', '644' ]
+496 verbose tar unpack /home/jahnnobi/.npm/node-gyp/3.8.0/package.tgz
+497 verbose tar unpacking to /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/node-gyp-5764835d
+498 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/node-gyp-5764835d is being purged
+499 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/node-gyp-5764835d
+500 silly gunzTarPerm modes [ '755', '644' ]
+501 silly gunzTarPerm modes [ '755', '644' ]
+502 silly gunzTarPerm modes [ '755', '644' ]
+503 silly gunzTarPerm modes [ '755', '644' ]
+504 verbose tar unpack /home/jahnnobi/.npm/node-sass/4.5.3/package.tgz
+505 verbose tar unpacking to /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/node-sass-ddae2fcf
+506 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/node-sass-ddae2fcf is being purged
+507 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/node-sass-ddae2fcf
+508 silly gunzTarPerm modes [ '755', '644' ]
+509 silly gunzTarPerm modes [ '755', '644' ]
+510 silly gunzTarPerm extractEntry package.json
+511 silly gunzTarPerm extractEntry package.json
+512 silly gunzTarPerm extractEntry package.json
+513 silly gunzTarPerm extractEntry LICENSE
+514 silly gunzTarPerm extractEntry package.json
+515 silly gunzTarPerm extractEntry package.json
+516 silly gunzTarPerm extractEntry package.json
+517 silly gunzTarPerm extractEntry README.md
+518 silly gunzTarPerm extractEntry LICENSE
+519 silly gunzTarPerm extractEntry README.md
+520 silly gunzTarPerm extractEntry LICENSE
+521 silly gunzTarPerm extractEntry index.js
+522 silly gunzTarPerm extractEntry LICENSE
+523 silly gunzTarPerm extractEntry README.md
+524 silly gunzTarPerm extractEntry bin/cmd.js
+525 silly gunzTarPerm extractEntry index.js
+526 silly gunzTarPerm extractEntry README.md
+527 silly gunzTarPerm extractEntry LICENSE
+528 silly gunzTarPerm extractEntry .jshintrc
+529 silly gunzTarPerm extractEntry addon.gypi
+530 silly gunzTarPerm extractEntry README.md
+531 silly gunzTarPerm extractEntry LICENSE
+532 silly gunzTarPerm extractEntry index.js
+533 silly gunzTarPerm extractEntry semver.js
+534 silly gunzTarPerm extractEntry index.js
+535 silly gunzTarPerm extractEntry package.json
+536 silly gunzTarPerm extractEntry readme.markdown
+537 silly gunzTarPerm extractEntry CHANGELOG.md
+538 silly gunzTarPerm extractEntry CHANGELOG.md
+539 silly gunzTarPerm extractEntry bin/node-sass
+540 silly gunzTarPerm extractEntry binding.gyp
+541 silly gunzTarPerm extractEntry CONTRIBUTING.md
+542 silly gunzTarPerm extractEntry lib/binding.js
+543 silly gunzTarPerm extractEntry bin/semver
+544 silly gunzTarPerm extractEntry range.bnf
+545 silly gunzTarPerm extractEntry LICENSE
+546 silly gunzTarPerm extractEntry README.md
+547 silly gunzTarPerm extractEntry lib/errors.js
+548 silly gunzTarPerm extractEntry lib/extensions.js
+549 silly gunzTarPerm extractEntry bin/usage.txt
+550 silly gunzTarPerm extractEntry lib/index.js
+551 silly gunzTarPerm extractEntry lib/render.js
+552 silly gunzTarPerm extractEntry .github/ISSUE_TEMPLATE.md
+553 silly gunzTarPerm extractEntry .github/PULL_REQUEST_TEMPLATE.md
+554 silly gunzTarPerm extractEntry bin/node-gyp.js
+555 silly gunzTarPerm extractEntry gyp/AUTHORS
+556 silly gunzTarPerm extractEntry src/custom_importer_bridge.cpp
+557 silly gunzTarPerm extractEntry src/binding.cpp
+558 silly gunzTarPerm extractEntry gyp/codereview.settings
+559 silly gunzTarPerm modified mode [ 'gyp/codereview.settings', 436, 420 ]
+560 silly gunzTarPerm extractEntry gyp/data/win/large-pdb-shim.cc
+561 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.assign-be29c554/node_modules is being purged
+562 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.assign-be29c554/node_modules
+563 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.mergewith-912f28ad/node_modules is being purged
+564 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.mergewith-912f28ad/node_modules
+565 silly gunzTarPerm extractEntry src/create_string.cpp
+566 silly gunzTarPerm extractEntry src/create_string.h
+567 silly gunzTarPerm extractEntry gyp/DEPS
+568 silly gunzTarPerm extractEntry gyp/gyp
+569 silly gunzTarPerm modified mode [ 'gyp/gyp', 509, 493 ]
+570 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.clonedeep-839045ea/node_modules is being purged
+571 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.clonedeep-839045ea/node_modules
+572 silly gunzTarPerm extractEntry src/custom_function_bridge.cpp
+573 silly gunzTarPerm extractEntry src/custom_function_bridge.h
+574 silly gunzTarPerm extractEntry gyp/gyp_main.py
+575 silly gunzTarPerm extractEntry gyp/gyp.bat
+576 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/semver-2718cbdc/node_modules is being purged
+577 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/semver-2718cbdc/node_modules
+578 silly gunzTarPerm extractEntry src/callback_bridge.h
+579 silly gunzTarPerm extractEntry src/custom_importer_bridge.h
+580 silly gunzTarPerm extractEntry gyp/LICENSE
+581 silly gunzTarPerm extractEntry gyp/OWNERS
+582 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/mkdirp-7c497485/node_modules is being purged
+583 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/mkdirp-7c497485/node_modules
+584 silly gunzTarPerm extractEntry src/libsass/.npmignore
+585 silly gunzTarPerm extractEntry src/libsass/LICENSE
+586 silly gunzTarPerm extractEntry gyp/PRESUBMIT.py
+587 silly gunzTarPerm extractEntry gyp/pylib/gyp/__init__.py
+588 silly gunzTarPerm extractEntry src/libsass/appveyor.yml
+589 silly gunzTarPerm extractEntry src/libsass/.editorconfig
+590 silly gunzTarPerm extractEntry gyp/pylib/gyp/common_test.py
+591 silly gunzTarPerm extractEntry gyp/pylib/gyp/common.py
+592 silly gunzTarPerm extractEntry src/libsass/.travis.yml
+593 silly gunzTarPerm extractEntry src/libsass/COPYING
+594 silly gunzTarPerm extractEntry src/libsass/GNUmakefile.am
+595 silly gunzTarPerm extractEntry src/libsass/INSTALL
+596 silly gunzTarPerm extractEntry gyp/pylib/gyp/easy_xml_test.py
+597 silly gunzTarPerm extractEntry gyp/pylib/gyp/easy_xml.py
+598 silly gunzTarPerm extractEntry src/libsass/.github/CONTRIBUTING.md
+599 silly gunzTarPerm extractEntry src/libsass/.github/ISSUE_TEMPLATE.md
+600 silly gunzTarPerm extractEntry gyp/pylib/gyp/flock_tool.py
+601 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/flock_tool.py', 509, 493 ]
+602 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/__init__.py
+603 silly gunzTarPerm extractEntry src/libsass/Makefile
+604 silly gunzTarPerm extractEntry src/libsass/Makefile.conf
+605 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/analyzer.py
+606 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/android.py
+607 silly gunzTarPerm extractEntry src/libsass/Readme.md
+608 silly gunzTarPerm extractEntry src/libsass/SECURITY.md
+609 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/cmake.py
+610 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/dump_dependency_json.py
+611 silly gunzTarPerm extractEntry src/libsass/.gitattributes
+612 silly gunzTarPerm extractEntry src/libsass/configure.ac
+613 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/eclipse.py
+614 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/generator/eclipse.py', 436, 420 ]
+615 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/gypd.py
+616 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/generator/gypd.py', 436, 420 ]
+617 silly gunzTarPerm extractEntry src/libsass/contrib/libsass.spec
+618 silly gunzTarPerm extractEntry src/libsass/contrib/plugin.cpp
+619 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/gypsh.py
+620 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/make.py
+621 silly gunzTarPerm extractEntry src/libsass/docs/README.md
+622 silly gunzTarPerm extractEntry src/libsass/docs/unicode.md
+623 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/msvs_test.py
+624 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/msvs.py
+625 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/ninja_test.py
+626 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/generator/ninja_test.py', 436, 420 ]
+627 silly gunzTarPerm extractEntry src/libsass/docs/api-context-internal.md
+628 silly gunzTarPerm extractEntry src/libsass/docs/api-context.md
+629 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/ninja.py
+630 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/xcode_test.py
+631 silly gunzTarPerm extractEntry src/libsass/docs/api-doc.md
+632 silly gunzTarPerm extractEntry src/libsass/docs/api-function-example.md
+633 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/xcode.py
+634 silly gunzTarPerm extractEntry gyp/pylib/gyp/input_test.py
+635 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/input_test.py', 509, 493 ]
+636 silly gunzTarPerm extractEntry src/libsass/docs/api-function-internal.md
+637 silly gunzTarPerm extractEntry src/libsass/docs/api-function.md
+638 silly gunzTarPerm extractEntry src/libsass/docs/api-importer-example.md
+639 silly gunzTarPerm extractEntry src/libsass/docs/api-importer-internal.md
+640 silly gunzTarPerm extractEntry gyp/pylib/gyp/input.py
+641 silly gunzTarPerm extractEntry gyp/pylib/gyp/mac_tool.py
+642 silly gunzTarPerm extractEntry gyp/pylib/gyp/msvs_emulation.py
+643 silly gunzTarPerm extractEntry src/libsass/docs/api-importer.md
+644 silly gunzTarPerm extractEntry src/libsass/docs/api-value-example.md
+645 silly gunzTarPerm extractEntry gyp/pylib/gyp/MSVSNew.py
+646 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/MSVSNew.py', 436, 420 ]
+647 silly gunzTarPerm extractEntry gyp/pylib/gyp/MSVSProject.py
+648 silly gunzTarPerm extractEntry src/libsass/docs/api-value-internal.md
+649 silly gunzTarPerm extractEntry src/libsass/docs/api-value.md
+650 silly gunzTarPerm extractEntry gyp/pylib/gyp/MSVSSettings_test.py
+651 silly gunzTarPerm extractEntry gyp/pylib/gyp/MSVSSettings.py
+652 silly gunzTarPerm extractEntry gyp/pylib/gyp/MSVSToolFile.py
+653 silly gunzTarPerm extractEntry gyp/pylib/gyp/MSVSUserFile.py
+654 silly gunzTarPerm extractEntry src/libsass/docs/build-on-darwin.md
+655 silly gunzTarPerm extractEntry src/libsass/docs/build-on-gentoo.md
+656 silly gunzTarPerm extractEntry gyp/pylib/gyp/MSVSUtil.py
+657 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/MSVSUtil.py', 436, 420 ]
+658 silly gunzTarPerm extractEntry gyp/pylib/gyp/MSVSVersion.py
+659 silly gunzTarPerm extractEntry src/libsass/docs/build-on-windows.md
+660 silly gunzTarPerm extractEntry src/libsass/docs/api-context-example.md
+661 silly gunzTarPerm extractEntry gyp/pylib/gyp/ninja_syntax.py
+662 silly gunzTarPerm extractEntry gyp/pylib/gyp/ordered_dict.py
+663 silly gunzTarPerm extractEntry src/libsass/docs/build-with-autotools.md
+664 silly gunzTarPerm extractEntry src/libsass/docs/build-with-makefiles.md
+665 silly gunzTarPerm extractEntry gyp/pylib/gyp/simple_copy.py
+666 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/simple_copy.py', 436, 420 ]
+667 silly gunzTarPerm extractEntry gyp/pylib/gyp/win_tool.py
+668 silly gunzTarPerm extractEntry src/libsass/docs/build-with-mingw.md
+669 silly gunzTarPerm extractEntry src/libsass/docs/build-with-visual-studio.md
+670 silly gunzTarPerm extractEntry gyp/pylib/gyp/xcode_emulation.py
+671 silly gunzTarPerm extractEntry gyp/pylib/gyp/xcode_ninja.py
+672 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/xcode_ninja.py', 436, 420 ]
+673 silly gunzTarPerm extractEntry src/libsass/docs/build.md
+674 silly gunzTarPerm extractEntry src/libsass/docs/compatibility-plan.md
+675 silly gunzTarPerm extractEntry gyp/pylib/gyp/xcodeproj_file.py
+676 silly gunzTarPerm extractEntry gyp/pylib/gyp/xml_fix.py
+677 silly gunzTarPerm extractEntry gyp/samples/samples
+678 silly gunzTarPerm extractEntry gyp/samples/samples.bat
+679 silly gunzTarPerm extractEntry src/libsass/docs/contributing.md
+680 silly gunzTarPerm extractEntry src/libsass/docs/custom-functions-internal.md
+681 silly gunzTarPerm extractEntry gyp/setup.py
+682 silly gunzTarPerm extractEntry gyp/tools/emacs/gyp-tests.el
+683 silly gunzTarPerm extractEntry gyp/tools/emacs/gyp.el
+684 silly gunzTarPerm modified mode [ 'gyp/tools/emacs/gyp.el', 436, 420 ]
+685 silly gunzTarPerm extractEntry gyp/tools/emacs/README
+686 silly gunzTarPerm extractEntry gyp/tools/emacs/run-unit-tests.sh
+687 silly gunzTarPerm extractEntry src/libsass/docs/dev-ast-memory.md
+688 silly gunzTarPerm extractEntry src/libsass/docs/implementations.md
+689 silly gunzTarPerm extractEntry gyp/tools/emacs/testdata/media.gyp
+690 silly gunzTarPerm extractEntry gyp/tools/emacs/testdata/media.gyp.fontified
+691 silly gunzTarPerm extractEntry gyp/tools/graphviz.py
+692 silly gunzTarPerm extractEntry gyp/tools/pretty_gyp.py
+693 silly gunzTarPerm extractEntry src/libsass/docs/plugins.md
+694 silly gunzTarPerm extractEntry src/libsass/docs/setup-environment.md
+695 silly gunzTarPerm extractEntry gyp/tools/pretty_sln.py
+696 silly gunzTarPerm modified mode [ 'gyp/tools/pretty_sln.py', 509, 493 ]
+697 silly gunzTarPerm extractEntry gyp/tools/pretty_vcproj.py
+698 silly gunzTarPerm extractEntry src/libsass/docs/source-map-internals.md
+699 silly gunzTarPerm extractEntry src/libsass/docs/trace.md
+700 silly gunzTarPerm extractEntry gyp/tools/README
+701 silly gunzTarPerm extractEntry gyp/tools/Xcode/README
+702 silly gunzTarPerm extractEntry gyp/tools/Xcode/Specifications/gyp.pbfilespec
+703 silly gunzTarPerm extractEntry src/libsass/docs/triage.md
+704 silly gunzTarPerm extractEntry src/libsass/docs/build-shared-library.md
+705 silly gunzTarPerm extractEntry gyp/tools/Xcode/Specifications/gyp.xclangspec
+706 silly gunzTarPerm extractEntry lib/build.js
+707 silly gunzTarPerm extractEntry src/libsass/extconf.rb
+708 silly gunzTarPerm extractEntry src/libsass/include/sass/base.h
+709 silly gunzTarPerm extractEntry lib/clean.js
+710 silly gunzTarPerm extractEntry lib/configure.js
+711 silly gunzTarPerm extractEntry src/libsass/include/sass/context.h
+712 silly gunzTarPerm extractEntry src/libsass/include/sass/functions.h
+713 silly gunzTarPerm extractEntry lib/find-node-directory.js
+714 silly gunzTarPerm extractEntry lib/Find-VS2017.cs
+715 silly gunzTarPerm extractEntry lib/find-vs2017.js
+716 silly gunzTarPerm extractEntry lib/install.js
+717 silly gunzTarPerm extractEntry lib/list.js
+718 silly gunzTarPerm extractEntry lib/node-gyp.js
+719 silly gunzTarPerm extractEntry lib/process-release.js
+720 silly gunzTarPerm extractEntry lib/rebuild.js
+721 silly gunzTarPerm extractEntry src/libsass/include/sass/values.h
+722 silly gunzTarPerm extractEntry src/libsass/include/sass/version.h
+723 silly gunzTarPerm extractEntry lib/remove.js
+724 silly gunzTarPerm extractEntry src/win_delay_load_hook.cc
+725 silly gunzTarPerm extractEntry src/libsass/include/sass/version.h.in
+726 silly gunzTarPerm extractEntry src/libsass/include/sass.h
+727 silly gunzTarPerm extractEntry test/docker.sh
+728 silly gunzTarPerm modified mode [ 'test/docker.sh', 509, 493 ]
+729 silly gunzTarPerm extractEntry test/fixtures/ca-bundle.crt
+730 silly gunzTarPerm extractEntry test/fixtures/ca.crt
+731 silly gunzTarPerm extractEntry test/fixtures/server.crt
+732 silly gunzTarPerm extractEntry test/fixtures/server.key
+733 silly gunzTarPerm extractEntry test/fixtures/test-charmap.py
+734 silly gunzTarPerm extractEntry test/process-exec-sync.js
+735 silly gunzTarPerm extractEntry test/simple-proxy.js
+736 silly gunzTarPerm extractEntry test/test-addon.js
+737 silly gunzTarPerm extractEntry test/test-configure-python.js
+738 silly gunzTarPerm extractEntry test/test-download.js
+739 silly gunzTarPerm extractEntry src/libsass/include/sass2scss.h
+740 silly gunzTarPerm extractEntry src/libsass/m4/.gitkeep
+741 silly gunzTarPerm extractEntry test/test-find-accessible-sync.js
+742 silly gunzTarPerm extractEntry test/test-find-node-directory.js
+743 silly gunzTarPerm extractEntry src/libsass/m4/m4-ax_cxx_compile_stdcxx_11.m4
+744 silly gunzTarPerm extractEntry src/libsass/res/resource.rc
+745 silly gunzTarPerm extractEntry test/test-find-python.js
+746 silly gunzTarPerm extractEntry test/test-install.js
+747 silly gunzTarPerm extractEntry test/test-options.js
+748 silly gunzTarPerm extractEntry test/test-process-release.js
+749 silly gunzTarPerm modified mode [ 'test/test-process-release.js', 436, 420 ]
+750 silly gunzTarPerm extractEntry tools/gyp/pylib/gyp/generator/compile_commands_json.py
+751 silly gunzTarPerm extractEntry src/libsass/script/ci-install-deps
+752 silly gunzTarPerm extractEntry src/libsass/script/bootstrap
+753 silly gunzTarPerm extractEntry src/libsass/script/ci-build-libsass
+754 silly gunzTarPerm extractEntry src/libsass/script/ci-build-plugin
+755 silly gunzTarPerm extractEntry src/libsass/script/ci-install-compiler
+756 silly gunzTarPerm extractEntry src/libsass/script/branding
+757 silly gunzTarPerm extractEntry src/libsass/script/ci-report-coverage
+758 silly gunzTarPerm extractEntry src/libsass/script/spec
+759 silly gunzTarPerm extractEntry src/libsass/script/tap-driver
+760 silly gunzTarPerm extractEntry src/libsass/script/tap-runner
+761 silly gunzTarPerm extractEntry src/libsass/script/test-leaks.pl
+762 silly gunzTarPerm extractEntry src/libsass/src/listize.cpp
+763 silly gunzTarPerm extractEntry src/libsass/src/GNUmakefile.am
+764 silly gunzTarPerm extractEntry src/libsass/src/ast.hpp
+765 silly gunzTarPerm extractEntry src/libsass/src/ast_def_macros.hpp
+766 silly gunzTarPerm extractEntry src/libsass/src/ast_fwd_decl.cpp
+767 silly gunzTarPerm extractEntry src/libsass/src/ast_fwd_decl.hpp
+768 silly gunzTarPerm extractEntry src/libsass/src/b64/cencode.h
+769 silly gunzTarPerm extractEntry src/libsass/src/b64/encode.h
+770 silly gunzTarPerm extractEntry src/libsass/src/backtrace.hpp
+771 silly gunzTarPerm extractEntry src/libsass/src/base64vlq.cpp
+772 silly gunzTarPerm extractEntry src/libsass/src/base64vlq.hpp
+773 silly gunzTarPerm extractEntry src/libsass/src/bind.cpp
+774 silly gunzTarPerm extractEntry src/libsass/src/bind.hpp
+775 silly gunzTarPerm extractEntry src/libsass/src/c99func.c
+776 silly gunzTarPerm extractEntry src/libsass/src/cencode.c
+777 silly gunzTarPerm extractEntry src/libsass/src/check_nesting.cpp
+778 silly gunzTarPerm extractEntry src/libsass/src/check_nesting.hpp
+779 silly gunzTarPerm extractEntry src/libsass/src/color_maps.cpp
+780 silly gunzTarPerm extractEntry src/libsass/src/color_maps.hpp
+781 silly gunzTarPerm extractEntry src/libsass/src/constants.cpp
+782 silly gunzTarPerm extractEntry src/libsass/src/constants.hpp
+783 silly gunzTarPerm extractEntry src/libsass/src/context.cpp
+784 silly gunzTarPerm extractEntry src/libsass/src/context.hpp
+785 silly gunzTarPerm extractEntry src/libsass/src/cssize.cpp
+786 silly gunzTarPerm extractEntry src/libsass/src/cssize.hpp
+787 silly gunzTarPerm extractEntry src/libsass/src/debug.hpp
+788 silly gunzTarPerm extractEntry src/libsass/src/debugger.hpp
+789 silly gunzTarPerm extractEntry src/libsass/src/emitter.cpp
+790 silly gunzTarPerm extractEntry src/libsass/src/emitter.hpp
+791 silly gunzTarPerm extractEntry src/libsass/src/environment.cpp
+792 silly gunzTarPerm extractEntry src/libsass/src/environment.hpp
+793 silly gunzTarPerm extractEntry src/libsass/src/error_handling.cpp
+794 silly gunzTarPerm extractEntry src/libsass/src/error_handling.hpp
+795 silly gunzTarPerm extractEntry src/libsass/src/eval.cpp
+796 silly gunzTarPerm extractEntry src/libsass/src/eval.hpp
+797 silly gunzTarPerm extractEntry src/libsass/src/expand.cpp
+798 silly gunzTarPerm extractEntry src/libsass/src/expand.hpp
+799 silly gunzTarPerm extractEntry src/libsass/src/extend.cpp
+800 silly gunzTarPerm extractEntry src/libsass/src/extend.hpp
+801 silly gunzTarPerm extractEntry src/libsass/src/file.cpp
+802 silly gunzTarPerm extractEntry src/libsass/src/file.hpp
+803 silly gunzTarPerm extractEntry src/libsass/src/functions.cpp
+804 silly gunzTarPerm extractEntry src/libsass/src/functions.hpp
+805 silly gunzTarPerm extractEntry src/libsass/src/inspect.cpp
+806 silly gunzTarPerm extractEntry src/libsass/src/inspect.hpp
+807 silly gunzTarPerm extractEntry src/libsass/src/json.cpp
+808 silly gunzTarPerm extractEntry src/libsass/src/json.hpp
+809 silly gunzTarPerm extractEntry src/libsass/src/kwd_arg_macros.hpp
+810 silly gunzTarPerm extractEntry src/libsass/src/lexer.cpp
+811 silly gunzTarPerm extractEntry src/libsass/src/lexer.hpp
+812 silly gunzTarPerm extractEntry src/libsass/src/ast.cpp
+813 silly gunzTarPerm extractEntry src/libsass/src/listize.hpp
+814 silly gunzTarPerm extractEntry src/libsass/src/mapping.hpp
+815 silly gunzTarPerm extractEntry src/libsass/src/memory/SharedPtr.cpp
+816 silly gunzTarPerm extractEntry src/libsass/src/memory/SharedPtr.hpp
+817 silly gunzTarPerm extractEntry src/libsass/src/node.cpp
+818 silly gunzTarPerm extractEntry src/libsass/src/node.hpp
+819 silly gunzTarPerm extractEntry src/libsass/src/operation.hpp
+820 silly gunzTarPerm extractEntry src/libsass/src/output.cpp
+821 silly gunzTarPerm extractEntry src/libsass/src/output.hpp
+822 silly gunzTarPerm extractEntry src/libsass/src/parser.cpp
+823 silly gunzTarPerm extractEntry src/libsass/src/parser.hpp
+824 silly gunzTarPerm extractEntry src/libsass/src/paths.hpp
+825 silly gunzTarPerm extractEntry src/libsass/src/plugins.cpp
+826 silly gunzTarPerm extractEntry src/libsass/src/plugins.hpp
+827 silly gunzTarPerm extractEntry src/libsass/src/position.cpp
+828 silly gunzTarPerm extractEntry src/libsass/src/position.hpp
+829 silly gunzTarPerm extractEntry src/libsass/src/prelexer.cpp
+830 silly gunzTarPerm extractEntry src/libsass/src/prelexer.hpp
+831 silly gunzTarPerm extractEntry src/libsass/src/remove_placeholders.cpp
+832 silly gunzTarPerm extractEntry src/libsass/src/remove_placeholders.hpp
+833 silly gunzTarPerm extractEntry src/libsass/src/sass.cpp
+834 silly gunzTarPerm extractEntry src/libsass/src/sass.hpp
+835 silly gunzTarPerm extractEntry src/libsass/src/sass2scss.cpp
+836 silly gunzTarPerm extractEntry src/libsass/src/sass_context.cpp
+837 silly gunzTarPerm extractEntry src/libsass/src/sass_context.hpp
+838 silly gunzTarPerm extractEntry src/libsass/src/sass_functions.cpp
+839 silly gunzTarPerm extractEntry src/libsass/src/sass_functions.hpp
+840 silly gunzTarPerm extractEntry src/libsass/src/sass_util.cpp
+841 silly gunzTarPerm extractEntry src/libsass/src/sass_util.hpp
+842 silly gunzTarPerm extractEntry src/libsass/src/sass_values.cpp
+843 silly gunzTarPerm extractEntry src/libsass/src/sass_values.hpp
+844 silly gunzTarPerm extractEntry src/libsass/src/source_map.cpp
+845 silly gunzTarPerm extractEntry src/libsass/src/source_map.hpp
+846 silly gunzTarPerm extractEntry src/libsass/src/subset_map.cpp
+847 silly gunzTarPerm extractEntry src/libsass/src/subset_map.hpp
+848 silly gunzTarPerm extractEntry src/libsass/src/support/libsass.pc.in
+849 silly gunzTarPerm extractEntry src/libsass/src/to_c.cpp
+850 silly gunzTarPerm extractEntry src/libsass/src/to_c.hpp
+851 silly gunzTarPerm extractEntry src/libsass/src/to_value.cpp
+852 silly gunzTarPerm extractEntry src/libsass/src/to_value.hpp
+853 silly gunzTarPerm extractEntry src/libsass/src/units.cpp
+854 silly gunzTarPerm extractEntry src/libsass/src/units.hpp
+855 silly gunzTarPerm extractEntry src/libsass/src/utf8/checked.h
+856 silly gunzTarPerm extractEntry src/libsass/src/utf8/core.h
+857 silly gunzTarPerm extractEntry src/libsass/src/utf8/unchecked.h
+858 silly gunzTarPerm extractEntry src/libsass/src/utf8.h
+859 silly gunzTarPerm extractEntry src/libsass/src/utf8_string.cpp
+860 silly gunzTarPerm extractEntry src/libsass/src/utf8_string.hpp
+861 silly gunzTarPerm extractEntry src/libsass/src/util.cpp
+862 silly gunzTarPerm extractEntry src/libsass/src/util.hpp
+863 silly gunzTarPerm extractEntry src/libsass/src/values.cpp
+864 silly gunzTarPerm extractEntry src/libsass/src/values.hpp
+865 silly gunzTarPerm extractEntry src/libsass/test/test_node.cpp
+866 silly gunzTarPerm extractEntry src/libsass/test/test_paths.cpp
+867 silly gunzTarPerm extractEntry src/libsass/test/test_selector_difference.cpp
+868 silly gunzTarPerm extractEntry src/libsass/test/test_specificity.cpp
+869 silly gunzTarPerm extractEntry src/libsass/test/test_subset_map.cpp
+870 silly gunzTarPerm extractEntry src/libsass/test/test_superselector.cpp
+871 silly gunzTarPerm extractEntry src/libsass/test/test_unification.cpp
+872 silly gunzTarPerm extractEntry src/libsass/version.sh
+873 silly gunzTarPerm extractEntry src/libsass/win/libsass.sln
+874 silly gunzTarPerm extractEntry src/libsass/win/libsass.targets
+875 silly gunzTarPerm extractEntry src/libsass/win/libsass.vcxproj
+876 silly gunzTarPerm extractEntry src/libsass/win/libsass.vcxproj.filters
+877 silly gunzTarPerm extractEntry src/libsass.gyp
+878 silly gunzTarPerm extractEntry src/sass_context_wrapper.cpp
+879 silly gunzTarPerm extractEntry src/sass_context_wrapper.h
+880 silly gunzTarPerm extractEntry src/sass_types/map.cpp
+881 silly gunzTarPerm extractEntry src/sass_types/boolean.cpp
+882 silly gunzTarPerm extractEntry src/sass_types/color.cpp
+883 silly gunzTarPerm extractEntry src/sass_types/color.h
+884 silly gunzTarPerm extractEntry src/sass_types/error.cpp
+885 silly gunzTarPerm extractEntry src/sass_types/error.h
+886 silly gunzTarPerm extractEntry src/sass_types/factory.cpp
+887 silly gunzTarPerm extractEntry src/sass_types/factory.h
+888 silly gunzTarPerm extractEntry src/sass_types/list.cpp
+889 silly gunzTarPerm extractEntry src/sass_types/list.h
+890 silly gunzTarPerm extractEntry src/sass_types/boolean.h
+891 silly gunzTarPerm extractEntry src/sass_types/map.h
+892 silly gunzTarPerm extractEntry src/sass_types/null.cpp
+893 silly gunzTarPerm extractEntry src/sass_types/null.h
+894 silly gunzTarPerm extractEntry src/sass_types/number.cpp
+895 silly gunzTarPerm extractEntry src/sass_types/number.h
+896 silly gunzTarPerm extractEntry src/sass_types/sass_value_wrapper.h
+897 silly gunzTarPerm extractEntry src/sass_types/string.cpp
+898 silly gunzTarPerm extractEntry src/sass_types/string.h
+899 silly gunzTarPerm extractEntry src/sass_types/value.h
+900 silly gunzTarPerm extractEntry scripts/build.js
+901 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/node-gyp-5764835d/node_modules is being purged
+902 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/node-gyp-5764835d/node_modules
+903 silly gunzTarPerm extractEntry scripts/coverage.js
+904 silly gunzTarPerm extractEntry scripts/install.js
+905 silly gunzTarPerm extractEntry scripts/prepublish.js
+906 silly gunzTarPerm extractEntry scripts/util/downloadoptions.js
+907 silly gunzTarPerm extractEntry scripts/util/proxy.js
+908 silly gunzTarPerm extractEntry scripts/util/useragent.js
+909 silly gunzTarPerm extractEntry test/useragent.js
+910 silly gunzTarPerm extractEntry test/binding.js
+911 silly gunzTarPerm extractEntry test/cli.js
+912 silly gunzTarPerm extractEntry test/downloadoptions.js
+913 silly gunzTarPerm extractEntry test/errors.js
+914 silly gunzTarPerm extractEntry test/api.js
+915 silly gunzTarPerm extractEntry test/lowlevel.js
+916 silly gunzTarPerm extractEntry test/runtime.js
+917 silly gunzTarPerm extractEntry test/spec.js
+918 silly gunzTarPerm extractEntry test/scripts/util/proxy.js
+919 silly gunzTarPerm extractEntry test/.eslintrc
+920 silly gunzTarPerm extractEntry test/fixtures/invalid/index.scss
+921 silly gunzTarPerm extractEntry test/fixtures/compressed/expected.css
+922 silly gunzTarPerm extractEntry test/fixtures/compressed/index.scss
+923 silly gunzTarPerm extractEntry test/fixtures/cwd-include-path/expected.css
+924 silly gunzTarPerm extractEntry test/fixtures/cwd-include-path/outside.scss
+925 silly gunzTarPerm extractEntry test/fixtures/cwd-include-path/root/index.scss
+926 silly gunzTarPerm extractEntry test/fixtures/depth-first/_common.scss
+927 silly gunzTarPerm extractEntry test/fixtures/depth-first/_struct.scss
+928 silly gunzTarPerm extractEntry test/fixtures/depth-first/_vars.scss
+929 silly gunzTarPerm extractEntry test/fixtures/depth-first/a.scss
+930 silly gunzTarPerm extractEntry test/fixtures/depth-first/a1.scss
+931 silly gunzTarPerm extractEntry test/fixtures/depth-first/b.scss
+932 silly gunzTarPerm extractEntry test/fixtures/depth-first/b1.scss
+933 silly gunzTarPerm extractEntry test/fixtures/depth-first/expected.css
+934 silly gunzTarPerm extractEntry test/fixtures/depth-first/index.scss
+935 silly gunzTarPerm extractEntry test/fixtures/extras/my_custom_arrays_of_importers.js
+936 silly gunzTarPerm extractEntry test/fixtures/extras/my_custom_functions_setter.js
+937 silly gunzTarPerm extractEntry test/fixtures/extras/my_custom_functions_string_conversion.js
+938 silly gunzTarPerm extractEntry test/fixtures/extras/my_custom_importer_data.js
+939 silly gunzTarPerm extractEntry test/fixtures/extras/my_custom_importer_data_cb.js
+940 silly gunzTarPerm extractEntry test/fixtures/extras/my_custom_importer_error.js
+941 silly gunzTarPerm extractEntry test/fixtures/extras/my_custom_importer_file.js
+942 silly gunzTarPerm extractEntry test/fixtures/extras/my_custom_importer_file_and_data.js
+943 silly gunzTarPerm extractEntry test/fixtures/extras/my_custom_importer_file_and_data_cb.js
+944 silly gunzTarPerm extractEntry test/fixtures/extras/my_custom_importer_file_cb.js
+945 silly gunzTarPerm extractEntry test/fixtures/follow/foo/bar/index.scss
+946 silly gunzTarPerm extractEntry test/fixtures/include-files/bar.scss
+947 silly gunzTarPerm extractEntry test/fixtures/include-files/chained-imports-with-custom-importer.scss
+948 silly gunzTarPerm extractEntry test/fixtures/include-files/expected-importer.css
+949 silly gunzTarPerm extractEntry test/fixtures/include-files/file-not-processed-by-loader.scss
+950 silly gunzTarPerm extractEntry test/fixtures/include-files/file-processed-by-loader.scss
+951 silly gunzTarPerm extractEntry test/fixtures/include-files/foo.scss
+952 silly gunzTarPerm extractEntry test/fixtures/include-files/index.scss
+953 silly gunzTarPerm extractEntry test/fixtures/include-path/expected.css
+954 silly gunzTarPerm extractEntry test/fixtures/include-path/functions/colorBlue.scss
+955 silly gunzTarPerm extractEntry test/fixtures/include-path/index.scss
+956 silly gunzTarPerm extractEntry test/fixtures/include-path/lib/vars.scss
+957 silly gunzTarPerm extractEntry test/fixtures/indent/expected.css
+958 silly gunzTarPerm extractEntry test/fixtures/indent/index.sass
+959 silly gunzTarPerm extractEntry test/fixtures/input-directory/sass/_skipped.scss
+960 silly gunzTarPerm extractEntry test/fixtures/input-directory/sass/nested/three.scss
+961 silly gunzTarPerm extractEntry test/fixtures/input-directory/sass/one.scss
+962 silly gunzTarPerm extractEntry test/fixtures/input-directory/sass/two.scss
+963 silly gunzTarPerm extractEntry test/fixtures/custom-functions/setter-expected.css
+964 silly gunzTarPerm extractEntry test/fixtures/custom-functions/setter.scss
+965 silly gunzTarPerm extractEntry test/fixtures/custom-functions/string-conversion-expected.css
+966 silly gunzTarPerm extractEntry test/fixtures/custom-functions/string-conversion.scss
+967 silly gunzTarPerm extractEntry test/fixtures/output-directory/index.scss
+968 silly gunzTarPerm extractEntry test/fixtures/precision/expected.css
+969 silly gunzTarPerm extractEntry test/fixtures/precision/index.scss
+970 silly gunzTarPerm extractEntry test/fixtures/sass-path/expected-orange.css
+971 silly gunzTarPerm extractEntry test/fixtures/sass-path/expected-red.css
+972 silly gunzTarPerm extractEntry test/fixtures/sass-path/index.scss
+973 silly gunzTarPerm extractEntry test/fixtures/sass-path/orange/colors.scss
+974 silly gunzTarPerm extractEntry test/fixtures/sass-path/red/colors.scss
+975 silly gunzTarPerm extractEntry test/fixtures/simple/expected.css
+976 silly gunzTarPerm extractEntry test/fixtures/simple/index.scss
+977 silly gunzTarPerm extractEntry test/fixtures/source-comments/expected.css
+978 silly gunzTarPerm extractEntry test/fixtures/source-comments/index.scss
+979 silly gunzTarPerm extractEntry test/fixtures/source-map/expected.css
+980 silly gunzTarPerm extractEntry test/fixtures/source-map/expected.map
+981 silly gunzTarPerm extractEntry test/fixtures/source-map/index.scss
+982 silly gunzTarPerm extractEntry test/fixtures/source-map-embed/expected.css
+983 silly gunzTarPerm extractEntry test/fixtures/source-map-embed/index.scss
+984 silly gunzTarPerm extractEntry test/fixtures/watching/bar.sass
+985 silly gunzTarPerm extractEntry test/fixtures/watching/index.sass
+986 silly gunzTarPerm extractEntry test/fixtures/watching/index.scss
+987 silly gunzTarPerm extractEntry test/fixtures/watching/white.scss
+988 silly gunzTarPerm extractEntry test/fixtures/watching-dir-01/index.scss
+989 silly gunzTarPerm extractEntry test/fixtures/watching-dir-02/foo.scss
+990 silly gunzTarPerm extractEntry test/fixtures/watching-dir-02/index.scss
+991 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/node-sass-ddae2fcf/node_modules is being purged
+992 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/node-sass-ddae2fcf/node_modules
+993 silly doParallel preinstall 7
+994 silly preinstall mkdirp@0.5.5 /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/mkdirp-7c497485
+995 info lifecycle mkdirp@0.5.5~preinstall: mkdirp@0.5.5
+996 silly preinstall semver@5.3.0 /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/semver-2718cbdc
+997 info lifecycle semver@5.3.0~preinstall: semver@5.3.0
+998 silly preinstall lodash.assign@4.2.0 /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.assign-be29c554
+999 info lifecycle lodash.assign@4.2.0~preinstall: lodash.assign@4.2.0
+1000 silly preinstall lodash.clonedeep@4.5.0 /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.clonedeep-839045ea
+1001 info lifecycle lodash.clonedeep@4.5.0~preinstall: lodash.clonedeep@4.5.0
+1002 silly preinstall lodash.mergewith@4.6.2 /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/lodash.mergewith-912f28ad
+1003 info lifecycle lodash.mergewith@4.6.2~preinstall: lodash.mergewith@4.6.2
+1004 silly preinstall node-gyp@3.8.0 /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/node-gyp-5764835d
+1005 info lifecycle node-gyp@3.8.0~preinstall: node-gyp@3.8.0
+1006 silly preinstall node-sass@4.5.3 /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging/node-sass-ddae2fcf
+1007 info lifecycle node-sass@4.5.3~preinstall: node-sass@4.5.3
+1008 silly lifecycle mkdirp@0.5.5~preinstall: no script for preinstall, continuing
+1009 silly lifecycle semver@5.3.0~preinstall: no script for preinstall, continuing
+1010 silly lifecycle lodash.assign@4.2.0~preinstall: no script for preinstall, continuing
+1011 silly lifecycle lodash.clonedeep@4.5.0~preinstall: no script for preinstall, continuing
+1012 silly lifecycle lodash.mergewith@4.6.2~preinstall: no script for preinstall, continuing
+1013 silly lifecycle node-gyp@3.8.0~preinstall: no script for preinstall, continuing
+1014 silly lifecycle node-sass@4.5.3~preinstall: no script for preinstall, continuing
+1015 silly doReverseSerial remove 0
+1016 silly doSerial move 0
+1017 silly doSerial finalize 7
+1018 silly finalize /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/mkdirp
+1019 silly finalize /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/node-gyp/node_modules/semver
+1020 silly finalize /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/lodash.assign
+1021 silly finalize /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/lodash.clonedeep
+1022 silly finalize /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/lodash.mergewith
+1023 silly finalize /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/node-gyp
+1024 silly finalize /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/node-sass
+1025 silly doSerial build 7
+1026 silly build mkdirp@0.5.5
+1027 info linkStuff mkdirp@0.5.5
+1028 silly linkStuff mkdirp@0.5.5 has /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules as its parent node_modules
+1029 verbose linkBins mkdirp@0.5.5
+1030 verbose link bins [
+1030 verbose link bins   { mkdirp: 'bin/cmd.js' },
+1030 verbose link bins   '/media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.bin',
+1030 verbose link bins   false
+1030 verbose link bins ]
+1031 verbose linkMans mkdirp@0.5.5
+1032 silly gentlyRm /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.bin/mkdirp is being purged
+1033 verbose gentlyRm don't care about contents; nuking /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.bin/mkdirp
+1034 verbose unlock done using /home/jahnnobi/.npm/_locks/staging-b03afc1ebed1d813.lock for /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.staging
+1035 silly rollbackFailedOptional Starting
+1036 silly rollbackFailedOptional Finishing
+1037 silly runTopLevelLifecycles Finishing
+1038 silly install printInstalled
+1039 verbose stack Error: EPERM: operation not permitted, symlink '../mkdirp/bin/cmd.js' -> '/media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.bin/mkdirp'
+1040 verbose cwd /media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/sass
+1041 error Linux 5.0.0-32-generic
+1042 error argv "/home/jahnnobi/.nvm/versions/node/v12.18.0/bin/node" "/home/jahnnobi/.nvm/versions/node/v12.18.0/bin/npm" "install" "node-sass@4.5.3"
+1043 error node v12.18.0
+1044 error npm  v3.10.10
+1045 error path ../mkdirp/bin/cmd.js
+1046 error code EPERM
+1047 error errno -1
+1048 error syscall symlink
+1049 error Error: EPERM: operation not permitted, symlink '../mkdirp/bin/cmd.js' -> '/media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.bin/mkdirp'
+1049 error  [Error: EPERM: operation not permitted, symlink '../mkdirp/bin/cmd.js' -> '/media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.bin/mkdirp'] {
+1049 error   errno: -1,
+1049 error   code: 'EPERM',
+1049 error   syscall: 'symlink',
+1049 error   path: '../mkdirp/bin/cmd.js',
+1049 error   dest: '/media/jahnnobi/0A4C-E006/js/JahnnobiRahman-web50-projects-2020-x-0/node_modules/.bin/mkdirp',
+1049 error   parent: 'flog'
+1049 error }
+1050 error Please try running this command again as root/Administrator.
+1051 verbose exit [ -1, true ]
